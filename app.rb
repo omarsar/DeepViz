@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 require 'haml'
 require 'httparty'
-require './config/environment'
+#require './config/environment'
 require 'bootstrap'
 
 # Visualization API
