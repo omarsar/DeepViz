@@ -3,7 +3,6 @@ require 'json'
 require 'haml'
 require 'httparty'
 #require './config/environment'
-require 'bootstrap'
 
 # Visualization API
 class DeepViz < Sinatra::Base
