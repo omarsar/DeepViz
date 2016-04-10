@@ -32,7 +32,7 @@ class DeepViz < Sinatra::Base
   end
 
   # home for bp users
-  get '/bp' do
+  get '/bd' do
   
   end
 
