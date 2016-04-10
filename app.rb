@@ -20,6 +20,14 @@ class DeepViz < Sinatra::Base
   get '/bpd' do
     @user_name = params['username']
     @user_data = HTTParty.get(API_URL + "predict_json?screen_name=#{@user_name}")
+
+    # separate the data into two pieces
+    @user_profile = @user_data['profile']
+    @user_report = @user_data['report']
+
+    # has to be in json format before feeding into word cloud
+    @word_cloud_text = [{"text": "omar" ,"size":9}, {"text": "elvis" ,"size":5}]
+
     haml :bpd    
   end
 

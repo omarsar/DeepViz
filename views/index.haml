@@ -10,8 +10,8 @@
 %body
   .panel.panel-default
     .panel-body
-      .row
+      .row{:style => "margin-left: 20px"}
         .col-md-12
           %form{:action => "/bpd", :method => "get"}
             %input{:name => "username", :type => "input", :placeholder => "Enter Twitter Handle"}
-            %input.btn.btn-primary{:type => "submit", :value => "Add To Cart"}
+            %input.btn.btn-primary{:type => "submit", :value => "Mine!"}
