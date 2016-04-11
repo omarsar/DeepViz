@@ -1,3 +1,5 @@
+/ Get the javascript to work
+%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
 / Latest compiled and minified CSS
 %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", :integrity => "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", :rel => "stylesheet"}
 / Optional theme
@@ -12,6 +14,26 @@
     .panel-body
       .row{:style => "margin-left: 20px"}
         .col-md-12
+          .text-center
+            %img{:src=>"/idealab.jpg", :height => "100", :width => "100"}
+        .col-md-12
+          .text-center
+            %h1
+              = "Deep Depression Analysis"
+        .col-md-12
           %form{:action => "/bpd", :method => "get"}
-            %input{:name => "username", :type => "input", :placeholder => "Enter Twitter Handle"}
-            %input.btn.btn-primary{:type => "submit", :value => "Mine!"}
+            .row
+              .col-md-6.col-md-offset-3
+                .input-group
+                  %input{:name => "username", :type => "input", :placeholder => "Enter User Twitter Handle (e.g., @realDonaldTrump )", :class => "form-control"}
+                  %span.input-group-btn
+                    %button.btn.btn-primary{:type => "submit"}
+                      = "Mine!"
+        %br
+        %br
+        .col-md-12
+          .text-center
+            = "Brought to you by @2016 - "
+            %a{:href => "https://idea.cs.nthu.edu.tw/"}
+              = "IDEA Lab"
+                        

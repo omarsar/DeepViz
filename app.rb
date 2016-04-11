@@ -27,6 +27,17 @@ class DeepViz < Sinatra::Base
     # has to be in json format before feeding into word cloud
     @word_cloud_text = [{"text": "omar" ,"size":9}, {"text": "elvis" ,"size":5}]
 
+    # array for dimensions of depression
+    @dep_dimensions = [
+      @user_report['combos_ratio'],
+      @user_report['first_pronoun_ratio'],
+      @user_report['flips_ratio'],
+      @user_report['negative_ratio'],
+      @user_report['positive_ratio'],
+      @user_report['probability']
+    ]
+
+
     haml :bpd    
   end
 
