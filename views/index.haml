@@ -25,7 +25,8 @@
             .row
               .col-md-6.col-md-offset-3
                 .input-group
-                  %input{:name => "username", :type => "input", :placeholder => "Enter User Twitter Handle (e.g., @realDonaldTrump )", :class => "form-control"}
+                  %span#sizing-addon1.input-group-addon @
+                  %input{:name => "username", :type => "input", :placeholder => "Enter Twitter Handle (e.g., @realDonaldTrump, @HillaryClinton )", :class => "form-control"}
                   %span.input-group-btn
                     %button.btn.btn-primary{:type => "submit"}
                       = "Mine!"
@@ -33,7 +34,8 @@
         %br
         .col-md-12
           .text-center
-            = "Brought to you by @2016 - "
+            = "Brought to you by "
             %a{:href => "https://idea.cs.nthu.edu.tw/"}
-              = "IDEA Lab"
+              = "IDEA Lab @2016"
+
                         

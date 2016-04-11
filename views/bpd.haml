@@ -6,6 +6,9 @@
   / Get the javascript to work
   %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
 
+  / dashboard CSS
+  %link{:href => "/css/dashboard.css", :rel => "stylesheet"}
+
   / Header libraries for D3
   %script{:src => "http://d3js.org/d3.v3.min.js"}
   %script{:src => "/javascripts/d3.layout.cloud.js"}
@@ -29,13 +32,22 @@
   .row{:style => "margin-left: 20px;margin-right:20px"}
     %br
     .col-md-12
-      = "The following is the report for user @#{@user_profile['name']}"
+      %h4
+        = "The following is the report for user @#{@user_profile['name']}"
     %br
-    %br    
+    %br
+
     / Left Box -> Prediction Information
     .col-md-7
       / User Details
       .row
+
+        /  Profile
+        .col-md-4
+          .panel.panel-default
+            .panel-body
+              %img.img-circle{:alt => "", :height => "150", :src => "#{@user_profile['profile_image_url']}", :width => "150"}
+        
         / Age Prediction
         .col-md-4
           .panel.panel-default
@@ -43,7 +55,10 @@
               %i.fa.fa-hand-o-right
               Age Prediction
             .panel-body
-              = "#{@user_report['age']}"
+              .age-font
+                = "#{@user_report['age'].to_i}"
+                .pull-right
+                  %i.fa.fa-calendar-o
 
         / Gender Prediction
         .col-md-4
@@ -51,17 +66,30 @@
             .panel-heading
               %i.fa.fa-hand-o-right
               Gender Prediction
+
             .panel-body
-              = "#{@user_report['gender']}"
+              - if @user_report['gender'] == "Male"
+                .male-font
+                  = "#{@user_report['gender']}"
+                  .pull-right
+                    %i.fa.fa-mars
+              - else
+                .female-font
+                  = "#{@user_report['gender']}"
+                  .pull-right
+                    %i.fa.fa-venus
 
         / Friends Count
-        .col-md-4
+        .col-md-8
           .panel.panel-default
             .panel-heading
               %i.fa.fa-hand-o-right
               Friends Count
             .panel-body
-              = "#{@user_profile['friends_count']}"
+              .friends-font
+                = "#{@user_profile['friends_count']}"
+                .pull-right
+                  %i.fa.fa-users
       
       / Depression Indicators
       .row
@@ -144,7 +172,7 @@
           .panel.panel-default
             .panel-heading
               %i.fa.fa-users
-              Mentioning Frequency
+              Ment. Frequency
               .pull-right
                 %a{"data-placement"=>"right", :id => "mentioning_frequency"}
                   %i.fa.fa-info              
@@ -214,6 +242,7 @@
 
                 tooltip: {
                   shared: true,
+                  pointFormat: '<span style="color:{series.color}">{series.name}: <b>{point.y:,.4f}</b><br/>'
                 },
 
                 legend: {
