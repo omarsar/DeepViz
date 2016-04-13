@@ -274,7 +274,7 @@
             #wordcloud{:style => "width:100%"}
         / to be moved to React but for now keep using standard javascript
         :javascript
-          var word_data = #{@word_cloud_text.to_json}
+          var word_data = #{@bpd_word_count}
 
           var color = d3.scale.linear()
             .domain([0,1,2,3,4,5,6,10,15,20,100])

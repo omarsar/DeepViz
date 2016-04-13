@@ -2,10 +2,12 @@ require 'sinatra'
 require 'json'
 require 'haml'
 require 'httparty'
+require_relative './helpers/helper.rb'
 #require './config/environment'
 
 # Visualization API
 class DeepViz < Sinatra::Base
+  helpers Helpers
   
   API_URL = ENV['API_URL']
 
@@ -36,6 +38,9 @@ class DeepViz < Sinatra::Base
       @user_report['positive_ratio'],
       @user_report['probability']
     ]
+
+    # collect user data [{},{}]
+    @bpd_word_count = bpd_word_count(@user_data['BPD_words'])
 
 
     haml :bpd    
