@@ -26,20 +26,18 @@ class DeepViz < Sinatra::Base
     @user_profile = @user_data['profile']
     @user_report = @user_data['report']
 
-    # has to be in json format before feeding into word cloud
-    @word_cloud_text = [{"text": "omar" ,"size":9}, {"text": "elvis" ,"size":5}]
-
     # array for dimensions of depression
     @dep_dimensions = [
-      @user_report['combos_ratio'],
-      @user_report['first_pronoun_ratio'],
+      @user_report['BPD_probability'],
+      @user_report['bipolar_probability'],
+      @user_report['negative_combos'],
+      @user_report['positive_combos'],
+      #@user_report['first_pronoun_ratio'],
       @user_report['flips_ratio'],
       @user_report['negative_ratio'],
       @user_report['positive_ratio'],
-      @user_report['probability']
     ]
 
-    # collect user data [{},{}]
     @bpd_word_count = bpd_word_count(@user_data['BPD_words'])
 
 

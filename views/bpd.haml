@@ -80,7 +80,7 @@
                     %i.fa.fa-venus
 
         / Friends Count
-        .col-md-8
+        .col-md-4
           .panel.panel-default
             .panel-heading
               %i.fa.fa-hand-o-right
@@ -90,26 +90,37 @@
                 = "#{@user_profile['friends_count']}"
                 .pull-right
                   %i.fa.fa-users
+        / Tweets Length
+        .col-md-4
+          .panel.panel-default
+            .panel-heading
+              %i.fa.fa-hand-o-right
+              Tweets Length
+            .panel-body
+              .tweet-font
+                = "#{@user_report['tweets_length']}"
+                .pull-right
+                  %i.fa.fa-twitter
       
       / Depression Indicators
       .row
-        / Combos Ratio
+        / Negative Combos
         .col-md-4
           .panel.panel-info
             .panel-heading
               %i.fa.fa-hand-o-right
-              Combos Ratio
+              Negative Combos
             .panel-body
-              = "#{@user_report['combos_ratio']}"
+              = "#{@user_report['negative_combos']}"
 
-        / First Pronoun Ratio
+        / Positive Combos
         .col-md-4
           .panel.panel-info
             .panel-heading
               %i.fa.fa-hand-o-right
-              First Pronoun Ratio
+              Positive Combos
             .panel-body
-              = "#{@user_report['first_pronoun_ratio']}"
+              = "#{@user_report['positive_combos']}"
 
         / Flips Ratio
         .col-md-4
@@ -138,14 +149,23 @@
             .panel-body
               = "#{@user_report['positive_ratio']}"
 
-        / Probability
+        / Bipolar Probability
         .col-md-4
           .panel.panel-info
             .panel-heading
               %i.fa.fa-hand-o-right
               Probability
             .panel-body
-              = "#{@user_report['probability']}"
+              = "#{@user_report['bipolar_probability']}"
+
+        / BPD Probability
+        .col-md-4
+          .panel.panel-info
+            .panel-heading
+              %i.fa.fa-hand-o-right
+              Probability
+            .panel-body
+              = "#{@user_report['BPD_probability']}"
 
       / User Social Interaction Information
       .row
@@ -157,15 +177,6 @@
               Tweeting Frequency
             .panel-body
               = "#{@user_report['tweeting_frequency']}"
-
-        / Tweets Length
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-hand-o-right
-              Tweets Length
-            .panel-body
-              = "#{@user_report['tweets_length']}"
 
         / Mentioning Frequency
         .col-md-4
@@ -229,7 +240,7 @@
                 },
 
                 xAxis: {
-                  categories: ['Combos Ratio', 'First Pronoun Ratio', 'Flips Ratio', 'Negative Ratio', 'Positive Ratio', 'Probability'],
+                  categories: ['BPD Probability', 'Bipolar Probability', 'Negative Combos', 'Positive Combos', 'Flips Ratio', 'Negative Ratio', 'Positive Ratio'],
                   tickmarkPlacement: 'on',
                   lineWidth: 0
                 },

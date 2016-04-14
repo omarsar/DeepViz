@@ -13,7 +13,7 @@ module Helpers
 		# scaling for word cloud
 		word_count = word_count.reverse
 
-		new_max = 30.0
+		new_max = 10.0
 		new_min = 1.0
 		
 		firstword = word_count.first
