@@ -33,7 +33,7 @@
     %br
     .col-md-12
       %h4
-        = "The following is the report for user @#{@user_profile['name']}"
+        = "The following is the individual report for user @#{@user_profile['name']}"
     %br
     %br
 
@@ -231,7 +231,7 @@
                 },
 
                 title: {
-                  text: 'Depression Dimensions',
+                  text: 'Mental Disorder Dimensions',
                   x: -80
                 },
 
@@ -264,7 +264,7 @@
                 },
 
                 series: [{
-                  name: 'Depressed',
+                  name: 'MD Dimensions',
                   data: dep_dimensions,
                   pointPlacement: 'on'
                 }]
