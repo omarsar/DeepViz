@@ -213,7 +213,6 @@
       .row
         /  Profile
         .col-md-4
-          
           .panel.panel-default
             .panel-body
               %img.img-circle{:alt => "", :height => "150", :src => "#{@random_patient_profile['profile_image_url']}", :width => "150"}
@@ -377,3 +376,69 @@
             })
             .text(function(d) { return d.text; });
           }
+    .row
+      .panel.panel-default
+        .panel-heading
+          %i.fa.fa-hand-o-right
+          Word Overlap between users
+        .panel-body
+          #overlap_graph{:style => "width:100%"}
+        / to be moved to React but for now keep using standard javascript
+        :javascript
+          $(function () {
+            $('#overlap_graph').highcharts({
+              chart: {
+                type: 'areaspline'
+              },
+              title: {
+                text: 'Word Overlap between both users'
+              },
+              legend: {
+                layout: 'vertical',
+                align: 'left',
+                verticalAlign: 'top',
+                x: 150,
+                y: 100,
+                floating: true,
+                borderWidth: 1,
+                backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+              },
+              xAxis: {
+                categories: #{@overlap_words},
+                //plotBands: [{ // visualize the weekend
+                //  from: 4.5,
+                //  to: 6.5,
+                //  color: 'rgba(68, 170, 213, .2)'
+                //}]
+              },
+              yAxis: {
+                title: {
+                  text: 'Word Frequency'
+                }
+              },
+              tooltip: {
+                shared: true,
+                valueSuffix: ' frequency'
+              },
+              credits: {
+                enabled: false
+              },
+              plotOptions: {
+                areaspline: {
+                  fillOpacity: 0.5
+                }
+              },
+              series: [{
+                name: 'User A - Queried',
+                data: #{@overlap_normal_count}
+              }, {
+                name: 'User B - Patient',
+                data: #{@overlap_patient_count}
+              }]
+            });
+          });
+
+
+
+
+

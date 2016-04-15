@@ -20,6 +20,7 @@ class DeepViz < Sinatra::Base
   # home for comparison dashbaord
   get '/compare' do
     # information about queried user
+
     @user_name = params['username']
     @user_data = HTTParty.get(API_URL + "predict_json?screen_name=#{@user_name}")
 
@@ -62,6 +63,12 @@ class DeepViz < Sinatra::Base
     ]
 
     @random_patient_bpd_word_count = bpd_word_count(@random_patient_data['BPD_words'])
+
+    @overlap_information = overlap_words(@user_data['BPD_words'], @random_patient_data['BPD_words'])
+
+    @overlap_words = @overlap_information[0]
+    @overlap_normal_count = @overlap_information[1]
+    @overlap_patient_count = @overlap_information[2]
 
     haml :compare
   end
