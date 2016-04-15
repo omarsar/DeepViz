@@ -67,7 +67,7 @@
               Gender Prediction
 
             .panel-body
-              - if @user_report['gender'] == "Male"
+              - if @user_report['gender'].to_s == "Male"
                 .male-font
                   = "#{@user_report['gender']}"
                   .pull-right
@@ -237,7 +237,7 @@
               Gender Prediction
 
             .panel-body
-              - if @user_report['gender'] == "Male"
+              - if @random_patient_report['gender'] == "Male"
                 .male-font
                   = "#{@random_patient_report['gender']}"
                   .pull-right
