@@ -32,10 +32,12 @@ class DeepViz < Sinatra::Base
     @dep_dimensions = [
       @user_report['BPD_probability'],
       @user_report['bipolar_probability'],
-      @user_report['negative_combos'],
-      @user_report['positive_combos'],
+      #@user_report['negative_combos'],
+      #@user_report['positive_combos'],
       #@user_report['first_pronoun_ratio'],
-      @user_report['flips_ratio'],
+      @user_report['mentioning_frequency'],
+      @user_report['tweeting_frequency'],
+      #@user_report['flips_ratio'],
       @user_report['negative_ratio'],
       @user_report['positive_ratio'],
     ]
@@ -54,10 +56,12 @@ class DeepViz < Sinatra::Base
     @random_patient_dep_dimensions = [
       @random_patient_report['BPD_probability'],
       @random_patient_report['bipolar_probability'],
-      @random_patient_report['negative_combos'],
-      @random_patient_report['positive_combos'],
+      #@random_patient_report['negative_combos'],
+      #@random_patient_report['positive_combos'],
       #@user_report['first_pronoun_ratio'],
-      @random_patient_report['flips_ratio'],
+      @random_patient_report['mentioning_frequency'],
+      @random_patient_report['tweeting_frequency'],
+      #@random_patient_report['flips_ratio'],
       @random_patient_report['negative_ratio'],
       @random_patient_report['positive_ratio'],
     ]
@@ -95,7 +99,6 @@ class DeepViz < Sinatra::Base
     ]
 
     @bpd_word_count = bpd_word_count(@user_data['BPD_words'])
-
 
     haml :bpd    
   end
