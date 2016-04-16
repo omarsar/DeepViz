@@ -36,7 +36,7 @@ class DeepViz < Sinatra::Base
       #@user_report['positive_combos'],
       #@user_report['first_pronoun_ratio'],
       @user_report['mentioning_frequency'],
-      @user_report['tweeting_frequency'],
+      #@user_report['tweeting_frequency'],
       #@user_report['flips_ratio'],
       @user_report['negative_ratio'],
       @user_report['positive_ratio'],
@@ -46,7 +46,8 @@ class DeepViz < Sinatra::Base
     # ==============================================================================
     # information about MD patient
     # TODO: obtain this from a database
-    @random_patient_name = "BarelyNerdy"
+    #@random_patient_name = "BarelyNerdy"
+    @random_patient_name = "bipolar_type_II"
     @random_patient_data = HTTParty.get(API_URL + "predict_json?screen_name=#{@random_patient_name}")
 
     # separate the data into two pieces
@@ -60,7 +61,7 @@ class DeepViz < Sinatra::Base
       #@random_patient_report['positive_combos'],
       #@user_report['first_pronoun_ratio'],
       @random_patient_report['mentioning_frequency'],
-      @random_patient_report['tweeting_frequency'],
+      #@random_patient_report['tweeting_frequency'],
       #@random_patient_report['flips_ratio'],
       @random_patient_report['negative_ratio'],
       @random_patient_report['positive_ratio'],

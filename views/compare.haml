@@ -41,70 +41,76 @@
     .col-md-6{:style => "border-style:none;border-color:#01DF3A;background-color:#E0F2F7;padding-top:5px"}
       / User Details
       .row
-        /  Profile
-        .col-md-4
-          .panel.panel-default
-            .panel-body
-              %img.img-circle{:alt => "", :height => "150", :src => "#{@user_profile['profile_image_url']}", :width => "150"}
-        
-        / Age Prediction
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Age Prediction
-            .panel-body
-              .age-font
-                = "#{@user_report['age'].to_i}"
-                .pull-right
-                  %i.fa.fa-calendar-o
+        .panel.panel-default
+          .panel-heading
+            %i.fa.fa-arrow-circle-right
+            Profile Information
+          .panel-body
+            /  Profile
+            .col-md-4
+              .panel.panel-default
+                .panel-body
+                  %img.img-circle{:alt => "", :height => "150", :src => "#{@user_profile['profile_image_url']}", :width => "150"}
+            
+            / Age Prediction
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Age Prediction
+                .panel-body
+                  .age-font
+                    = "#{@user_report['age'].to_i}"
+                    .pull-right
+                      %i.fa.fa-calendar-o
 
-        / Gender Prediction
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Gender Prediction
+            / Gender Prediction
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Gender Prediction
 
-            .panel-body
-              - if @user_report['gender'].to_s == "Male"
-                .male-font
-                  = "#{@user_report['gender']}"
-                  .pull-right
-                    %i.fa.fa-mars
-              - else
-                .female-font
-                  = "#{@user_report['gender']}"
-                  .pull-right
-                    %i.fa.fa-venus
+                .panel-body
+                  - if @user_report['gender'].to_s == "Male"
+                    .male-font
+                      = "#{@user_report['gender']}"
+                      .pull-right
+                        %i.fa.fa-mars
+                  - else
+                    .female-font
+                      = "#{@user_report['gender']}"
+                      .pull-right
+                        %i.fa.fa-venus
 
-        / Friends Count
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Friends Count
-            .panel-body
-              .friends-font
-                = "#{@user_profile['friends_count']}"
-                .pull-right
-                  %i.fa.fa-users
-        / Tweets Length
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Tweets Length
-            .panel-body
-              .tweet-font
-                = "#{@user_report['tweets_length']}"
-                .pull-right
-                  %i.fa.fa-twitter
+            / Friends Count
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Friends Count
+                .panel-body
+                  .friends-font
+                    = "#{@user_profile['friends_count']}"
+                    .pull-right
+                      %i.fa.fa-users
+            / Tweets Length
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Tweets Length
+                .panel-body
+                  .tweet-font
+                    = "#{@user_report['tweets_length']}"
+                    .pull-right
+                      %i.fa.fa-twitter
 
       / MD Dimensions
       .row
         .panel.panel-default
           .panel-heading
+            %i.fa.fa-arrow-circle-right
             = "Mental Disorder Dimensions"
           .panel-body
             #dimensions{:style => "width:100%"}
@@ -128,7 +134,7 @@
                 },
 
                 xAxis: {
-                  categories: ['BPD Probability', 'Bipolar Probability', 'Mentions Ratio', 'Tweeting Frequency', 'Negative Ratio', 'Positive Ratio'],
+                  categories: ['BPD Probability', 'Bipolar Probability', 'Mentions Ratio', 'Negative Ratio', 'Positive Ratio'],
                   tickmarkPlacement: 'on',
                   lineWidth: 0
                 },
@@ -163,62 +169,84 @@
 
       / Other Social Features
       .row
-        / Unique Mentions
-        .col-md-6
-          .panel.panel-info
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Unique Mentions
-            .panel-body
-              .tweet-font
-                = "#{@user_report['unique_mentioning'].to_i}"
-                .pull-right
-                  %i.fa.fa-twitter
+        .panel.panel-default
+          .panel-heading
+            %i.fa.fa-arrow-circle-right
+              Other Social Features
+          .panel-body
+            / Tweeting Frequency
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Tweeting Frequency
+                .panel-body
+                  .tweet-font
+                    = "#{@user_report['tweeting_frequency'].round(2)}"
+                    .pull-right
+                      %i.fa.fa-twitter
 
-        / Frequent Mentions
-        .col-md-6
-          .panel.panel-info
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Frequent Mentions
-            .panel-body
-              .tweet-font
-                = "#{@user_report['frequent_mentioning'].to_i}"
-                .pull-right
-                  %i.fa.fa-twitter
+            / Unique Mentions
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Unique Mentions
+                .panel-body
+                  .tweet-font
+                    = "#{@user_report['unique_mentioning'].to_i}"
+                    .pull-right
+                      %i.fa.fa-twitter
+
+            / Frequent Mentions
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Frequent Mentions
+                .panel-body
+                  .tweet-font
+                    = "#{@user_report['frequent_mentioning'].to_i}"
+                    .pull-right
+                      %i.fa.fa-twitter
 
       / Other Polarity Features
       .row
-        .col-md-4
-          .panel.panel-info
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Negative Combos
-            .panel-body
-              .tweet-font
-                = "#{@user_report['negative_combos'].round(4)}"
-                .pull-right
-                  %i.fa.fa-frown-o
-        .col-md-4
-          .panel.panel-info
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Positive Combos
-            .panel-body
-              .tweet-font
-                = "#{@user_report['positive_combos'].round(4)}"
-                .pull-right
-                  %i.fa.fa-smile-o
-        .col-md-4
-          .panel.panel-info
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Flips Ratio
-            .panel-body
-              .tweet-font
-                = "#{@user_report['flips_ratio'].round(4)}"
-                .pull-right
-                  %i.fa.fa-meh-o
+        .panel.panel-default
+          .panel-heading
+            %i.fa.fa-arrow-circle-right
+              Other Polarity Features
+          .panel-body
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Negative Combos
+                .panel-body
+                  .tweet-font
+                    = "#{@user_report['negative_combos'].round(4)}"
+                    .pull-right
+                      %i.fa.fa-frown-o
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Positive Combos
+                .panel-body
+                  .tweet-font
+                    = "#{@user_report['positive_combos'].round(4)}"
+                    .pull-right
+                      %i.fa.fa-smile-o
+            .col-md-4
+              .panel.panel-info
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Flips Ratio
+                .panel-body
+                  .tweet-font
+                    = "#{@user_report['flips_ratio'].round(4)}"
+                    .pull-right
+                      %i.fa.fa-meh-o
 
       / Word Cloud
       .row
@@ -271,70 +299,76 @@
     .col-md-6{:style => "border-style:none;border-color:#FA5858;background-color:#FBEFF2;padding-top:5px"}
       / User Details
       .row
-        /  Profile
-        .col-md-4
-          .panel.panel-default
-            .panel-body
-              %img.img-circle{:alt => "", :height => "150", :src => "#{@random_patient_profile['profile_image_url']}", :width => "150"}
-        
-        / Age Prediction
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Age Prediction
-            .panel-body
-              .age-font
-                = "#{@random_patient_report['age'].to_i}"
-                .pull-right
-                  %i.fa.fa-calendar-o
+        .panel.panel-default
+          .panel-heading
+            %i.fa.fa-arrow-circle-right
+            Profile Information
+          .panel-body
+            /  Profile
+            .col-md-4
+              .panel.panel-default
+                .panel-body
+                  %img.img-circle{:alt => "", :height => "150", :src => "#{@random_patient_profile['profile_image_url']}", :width => "150"}
+            
+            / Age Prediction
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Age Prediction
+                .panel-body
+                  .age-font
+                    = "#{@random_patient_report['age'].to_i}"
+                    .pull-right
+                      %i.fa.fa-calendar-o
 
-        / Gender Prediction
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Gender Prediction
+            / Gender Prediction
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Gender Prediction
 
-            .panel-body
-              - if @random_patient_report['gender'] == "Male"
-                .male-font
-                  = "#{@random_patient_report['gender']}"
-                  .pull-right
-                    %i.fa.fa-mars
-              - else
-                .female-font
-                  = "#{@random_patient_report['gender']}"
-                  .pull-right
-                    %i.fa.fa-venus
+                .panel-body
+                  - if @random_patient_report['gender'] == "Male"
+                    .male-font
+                      = "#{@random_patient_report['gender']}"
+                      .pull-right
+                        %i.fa.fa-mars
+                  - else
+                    .female-font
+                      = "#{@random_patient_report['gender']}"
+                      .pull-right
+                        %i.fa.fa-venus
 
-        / Friends Count
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Friends Count
-            .panel-body
-              .friends-font
-                = "#{@random_patient_profile['friends_count']}"
-                .pull-right
-                  %i.fa.fa-users
-        / Tweets Length
-        .col-md-4
-          .panel.panel-default
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Tweets Length
-            .panel-body
-              .tweet-font
-                = "#{@random_patient_report['tweets_length']}"
-                .pull-right
-                  %i.fa.fa-twitter
+            / Friends Count
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Friends Count
+                .panel-body
+                  .friends-font
+                    = "#{@random_patient_profile['friends_count']}"
+                    .pull-right
+                      %i.fa.fa-users
+            / Tweets Length
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Tweets Length
+                .panel-body
+                  .tweet-font
+                    = "#{@random_patient_report['tweets_length']}"
+                    .pull-right
+                      %i.fa.fa-twitter
 
       / MD Dimensions
       .row
         .panel.panel-default
           .panel-heading
+            %i.fa.fa-arrow-circle-right
             = "Mental Disorder Dimensions"
           .panel-body
             #patient_dimensions{:style => "width:100%"}
@@ -358,7 +392,7 @@
                 },
 
                 xAxis: {
-                  categories: ['BPD Probability', 'Bipolar Probability', 'Mentions Ratio', 'Tweeting Frequency', 'Negative Ratio', 'Positive Ratio'],
+                  categories: ['BPD Probability', 'Bipolar Probability', 'Mentions Ratio', 'Negative Ratio', 'Positive Ratio'],
                   tickmarkPlacement: 'on',
                   lineWidth: 0
                 },
@@ -393,62 +427,84 @@
 
       / Other Social Features
       .row
-        / Unique Mentions
-        .col-md-6
-          .panel.panel-danger
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Unique Mentions
-            .panel-body
-              .tweet-font
-                = "#{@random_patient_report['unique_mentioning'].to_i}"
-                .pull-right
-                  %i.fa.fa-twitter
+        .panel.panel-default
+          .panel-heading
+            %i.fa.fa-arrow-circle-right
+              Other Social Features
+          .panel-body
+            / Tweeting Frequency
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Tweeting Frequency
+                .panel-body
+                  .tweet-font
+                    = "#{@random_patient_report['tweeting_frequency'].round(2)}"
+                    .pull-right
+                      %i.fa.fa-twitter
 
-        / Frequent Mentions
-        .col-md-6
-          .panel.panel-danger
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Frequent Mentions
-            .panel-body
-              .tweet-font
-                = "#{@random_patient_report['frequent_mentioning'].to_i}"
-                .pull-right
-                  %i.fa.fa-twitter
+            / Unique Mentions
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Unique Mentions
+                .panel-body
+                  .tweet-font
+                    = "#{@random_patient_report['unique_mentioning'].to_i}"
+                    .pull-right
+                      %i.fa.fa-twitter
+
+            / Frequent Mentions
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Frequent Mentions
+                .panel-body
+                  .tweet-font
+                    = "#{@random_patient_report['frequent_mentioning'].to_i}"
+                    .pull-right
+                      %i.fa.fa-twitter
       
       / Other Polarity Features
       .row
-        .col-md-4
-          .panel.panel-danger
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Negative Combos
-            .panel-body
-              .tweet-font
-                = "#{@random_patient_report['negative_combos'].round(4)}"
-                .pull-right
-                  %i.fa.fa-frown-o
-        .col-md-4
-          .panel.panel-danger
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Positive Combos
-            .panel-body
-              .tweet-font
-                = "#{@random_patient_report['positive_combos'].round(4)}"
-                .pull-right
-                  %i.fa.fa-smile-o
-        .col-md-4
-          .panel.panel-danger
-            .panel-heading
-              %i.fa.fa-arrow-circle-right
-              Flips Ratio
-            .panel-body
-              .tweet-font
-                = "#{@random_patient_report['flips_ratio'].round(4)}"
-                .pull-right
-                  %i.fa.fa-meh-o
+        .panel.panel-default
+          .panel-heading
+            %i.fa.fa-arrow-circle-right
+              Other Polarity Features
+          .panel-body
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Negative Combos
+                .panel-body
+                  .tweet-font
+                    = "#{@random_patient_report['negative_combos'].round(4)}"
+                    .pull-right
+                      %i.fa.fa-frown-o
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Positive Combos
+                .panel-body
+                  .tweet-font
+                    = "#{@random_patient_report['positive_combos'].round(4)}"
+                    .pull-right
+                      %i.fa.fa-smile-o
+            .col-md-4
+              .panel.panel-danger
+                .panel-heading
+                  %i.fa.fa-arrow-circle-right
+                  Flips Ratio
+                .panel-body
+                  .tweet-font
+                    = "#{@random_patient_report['flips_ratio'].round(4)}"
+                    .pull-right
+                      %i.fa.fa-meh-o
 
 
       / Patient Word Cloud
