@@ -51,7 +51,9 @@
               .panel.panel-default
                 .panel-body
                   %img.img-circle{:alt => "", :height => "150", :src => "#{@user_profile['profile_image_url']}", :width => "150"}
-            
+                  %br
+                  %br
+                  = "@"+"#{@user_profile['screen_name']}"            
             / Age Prediction
             .col-md-4
               .panel.panel-info
@@ -309,6 +311,9 @@
               .panel.panel-default
                 .panel-body
                   %img.img-circle{:alt => "", :height => "150", :src => "#{@random_patient_profile['profile_image_url']}", :width => "150"}
+                  %br
+                  %br
+                  = "@"+"#{@random_patient_profile['screen_name']}"
             
             / Age Prediction
             .col-md-4
