@@ -19,8 +19,8 @@ class DeepViz < Sinatra::Base
 
   # home for comparison dashbaord
   get '/compare' do
-    # information about queried user
 
+    # information about queried user
     @user_name = params['username']
     @user_data = HTTParty.get(API_URL + "predict_json_by_name?screen_name=#{@user_name}")
 
@@ -48,7 +48,12 @@ class DeepViz < Sinatra::Base
     # TODO: obtain this from a database
     #@random_patient_name = "BarelyNerdy"
     #@random_patient_name = "bipolar_type_II"
-    @random_patient_name = get_bipolar()
+    if params['case'] == "bipolar"
+      @random_patient_name = get_bipolar()
+    else
+      @random_patient_name = get_bpd()
+    end
+
     @random_patient_data = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{@random_patient_name}")
 
     # separate the data into two pieces

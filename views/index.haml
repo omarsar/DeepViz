@@ -24,12 +24,24 @@
           %form{:action => "/compare", :method => "get"}
             .row
               .col-md-6.col-md-offset-3
+                
                 .input-group
                   %span#sizing-addon1.input-group-addon @
-                  %input{:name => "username", :type => "input", :placeholder => "Enter Twitter Handle (e.g., @realDonaldTrump, @HillaryClinton )", :class => "form-control"}
+                  %input{:name => "username", :type => "input", :placeholder => "Enter Twitter Handle without @ symbol (e.g., realDonaldTrump, HillaryClinton )", :class => "form-control"}
+                  
                   %span.input-group-btn
                     %button.btn.btn-primary{:type => "submit"}
                       = "Mine!"
+            .row
+              .col-md-6.col-md-offset-3
+                .text-center
+                  .radio
+                    %label
+                      %input{:name => "case", :type => "radio", :value=>"bpd", :checked => "checked"} Compare with BPD Patient
+                  .radio
+                    %label
+                      %input{:name => "case", :type => "radio", :value=> "bipolar"} Compare with Bipolar Patient
+                     
         %br
         %br
         .col-md-12
