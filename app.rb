@@ -22,7 +22,7 @@ class DeepViz < Sinatra::Base
     # information about queried user
 
     @user_name = params['username']
-    @user_data = HTTParty.get(API_URL + "predict_json?screen_name=#{@user_name}")
+    @user_data = HTTParty.get(API_URL + "predict_json_by_name?screen_name=#{@user_name}")
 
     # separate the data into two pieces
     @user_profile = @user_data['profile']
@@ -47,8 +47,9 @@ class DeepViz < Sinatra::Base
     # information about MD patient
     # TODO: obtain this from a database
     #@random_patient_name = "BarelyNerdy"
-    @random_patient_name = "bipolar_type_II"
-    @random_patient_data = HTTParty.get(API_URL + "predict_json?screen_name=#{@random_patient_name}")
+    #@random_patient_name = "bipolar_type_II"
+    @random_patient_name = get_bipolar()
+    @random_patient_data = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{@random_patient_name}")
 
     # separate the data into two pieces
     @random_patient_profile = @random_patient_data['profile']
