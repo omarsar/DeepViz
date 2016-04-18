@@ -57,6 +57,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Age Prediction
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "age_prediction"}
+                      %i.fa.fa-info  
                 .panel-body
                   .age-font
                     = "#{@user_report['age'].to_i}"
@@ -69,6 +72,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Gender Prediction
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "gender_prediction"}
+                      %i.fa.fa-info
 
                 .panel-body
                   - if @user_report['gender'].to_s == "Male"
@@ -88,6 +94,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Friends Count
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "friends_count"}
+                      %i.fa.fa-info
                 .panel-body
                   .friends-font
                     = "#{@user_profile['friends_count']}"
@@ -99,6 +108,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Tweets Length
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "tweet_length"}
+                      %i.fa.fa-info
                 .panel-body
                   .tweet-font
                     = "#{@user_report['tweets_length']}"
@@ -111,6 +123,9 @@
           .panel-heading
             %i.fa.fa-arrow-circle-right
             = "Mental Disorder Dimensions"
+            .pull-right
+              %a{"data-placement"=>"right", :id => "mental_dimensions"}
+                %i.fa.fa-info
           .panel-body
             #dimensions{:style => "width:100%"}
           :javascript
@@ -171,7 +186,7 @@
         .panel.panel-default
           .panel-heading
             %i.fa.fa-arrow-circle-right
-              Other Social Features
+            Other Social Features
           .panel-body
             / Tweeting Frequency
             .col-md-4
@@ -179,6 +194,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Tweeting Frequency
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "tweeting_frequency"}
+                      %i.fa.fa-info
                 .panel-body
                   .tweet-font
                     = "#{@user_report['tweeting_frequency'].round(2)}"
@@ -191,6 +209,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Unique Mentions
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "unique_mentions"}
+                      %i.fa.fa-info
                 .panel-body
                   .tweet-font
                     = "#{@user_report['unique_mentioning'].to_i}"
@@ -203,6 +224,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Frequent Mentions
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "frequent_mentions"}
+                      %i.fa.fa-info
                 .panel-body
                   .tweet-font
                     = "#{@user_report['frequent_mentioning'].to_i}"
@@ -221,6 +245,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Negative Combos
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "negative_combos"}
+                      %i.fa.fa-info
                 .panel-body
                   .tweet-font
                     = "#{@user_report['negative_combos'].round(4)}"
@@ -231,6 +258,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Positive Combos
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "positive_combos"}
+                      %i.fa.fa-info
                 .panel-body
                   .tweet-font
                     = "#{@user_report['positive_combos'].round(4)}"
@@ -241,6 +271,9 @@
                 .panel-heading
                   %i.fa.fa-arrow-circle-right
                   Flips Ratio
+                  .pull-right
+                    %a{"data-placement"=>"right", :id => "flips_ratio"}
+                      %i.fa.fa-info
                 .panel-body
                   .tweet-font
                     = "#{@user_report['flips_ratio'].round(4)}"
@@ -618,6 +651,17 @@
             });
 
 
-
-
+    /  Javascript Utilities
+    :javascript
+      $('#age_prediction').tooltip({'title': 'The age predicted by the system'});
+      $('#gender_prediction').tooltip({'title': 'The gender predicted by the system'});
+      $('#friends_count').tooltip({'title': 'The number of people the user is following'});
+      $('#tweet_length').tooltip({'title': 'The number of tweets collected from the user profile'});
+      $('#mental_dimensions').tooltip({'title': 'Contains features and probabilities of produced by the PLF model'});
+      $('#tweeting_frequency').tooltip({'title': 'The frequency of daily posts'});
+      $('#unique_mentions').tooltip({'title': 'The number of unique users mentioned by the user'});
+      $('#frequent_mentions').tooltip({'title': 'The number of users mentioned more than three times by the user'});
+      $('#negative_combos').tooltip({'title': 'The number of X continuous negative posts within a certain period of time'});
+      $('#positive_combos').tooltip({'title': 'The number of X continuous positive posts within a certain period of time'});
+      $('#flips_ratio').tooltip({'title': 'The ratio of two continuous tweets with different polarity within a certain period of time'});
 
