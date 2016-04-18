@@ -52,6 +52,7 @@ class DeepViz < Sinatra::Base
       @random_patient_name = get_bipolar()
     else
       @random_patient_name = get_bpd()
+      #@random_patient_name = "OneCalicoSky"
     end
 
     @random_patient_data = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{@random_patient_name}")
