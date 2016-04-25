@@ -3,17 +3,17 @@ require 'json'
 require 'haml'
 require 'httparty'
 require_relative './helpers/helper.rb'
-#require './config/environment'
+require './config/environment'
 
 # Visualization API
 class DeepViz < Sinatra::Base
   helpers Helpers
-  
+
   API_URL = ENV['API_URL']
 
   # home url
   get '/?' do
-    @api_url = API_URL     
+    @api_url = API_URL
     haml :index
   end
 
@@ -108,12 +108,12 @@ class DeepViz < Sinatra::Base
 
     @bpd_word_count = bpd_word_count(@user_data['BPD_words'])
 
-    haml :bpd    
+    haml :bpd
   end
 
   # home for bp users
   get '/bd' do
-  
+
   end
 
 end

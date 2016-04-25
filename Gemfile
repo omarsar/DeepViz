@@ -6,3 +6,7 @@ gem 'haml'
 gem 'json'
 gem 'httparty'
 gem 'rerun'
+
+group :development, :test do
+  gem 'config_env'
+end
