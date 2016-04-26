@@ -5,6 +5,6 @@ A Project by [IDEALab](https://github.com/IDEA-NTHU-Taiwan)
 [MDDAT](http://deepviz.herokuapp.com/)
 
 ## Dashboard Screenshot
-![alt text](https://github.com/omarsar/DeepViz/blob/master/public/dashboard.jpg)
+![alt text](https://github.com/omarsar/DeepViz/blob/master/public/dashboard.png)
 
 More details coming soon! For questions please email: ellfae@gmail.com
