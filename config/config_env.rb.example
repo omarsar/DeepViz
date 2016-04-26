@@ -1,0 +1,6 @@
+# Copy this file to [app]/config/congig_env.rb
+# Replace [http://0.0.0.0:XXXX/] with the url of the API
+
+config_env :development, :test do
+  set 'API_URL', "http://0.0.0.0:XXXX/"
+end

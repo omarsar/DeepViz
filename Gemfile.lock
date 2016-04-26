@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    config_env (0.1.2)
     daemons (1.2.3)
     eventmachine (1.2.0.1)
     ffi (1.9.10)
@@ -36,6 +37,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  config_env
   haml
   httparty
   json
