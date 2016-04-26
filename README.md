@@ -1,11 +1,16 @@
 ## A Visualization Tool for Mental Disorder Detection and Analysis on Social Media
-A Project by [IDEALab](https://github.com/IDEA-NTHU-Taiwan)
+A Research Project by [IDEALab](https://github.com/IDEA-NTHU-Taiwan)
 
-## Link
+## Demo
 [MDDAT](http://deepviz.herokuapp.com/)
 
 ## Dashboard Screenshot
 ![alt text](https://github.com/omarsar/DeepViz/blob/master/public/dashboard.png)
+
+## Contributors
+* [Elvis Saravia](http://elvissaravia.com/) 
+* Chun-Hao Chang (a.k.a GB)
+* Renaud Jollet
 
 ## TODO
 1. Compare similar accounts based on other features (e.g., age and gender)
