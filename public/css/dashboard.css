@@ -1,24 +1,19 @@
-.age-font {
-  font-size: 25px;
-  color: #FF8000;
+.entity {
+  color: #535353;
+}
+.entity label {
+  font-size: 18px;
+}
+.entity figure {
+  font-size: 56px;
+}
+.entity unity {
+  color: #424242;
+  font-size: 12px;
 }
 
-.male-font {
-  font-size: 25px;
-  color: #01A9DB;
-}
-
-.female-font {
-  font-size: 25px;
-  color: #FE2EF7;
-}
-
-.friends-font {
-  font-size: 25px;
-  color: #01DF01;
-}
-
-.tweet-font {
-  font-size: 25px;
-  color: #103DBA;
+.header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #c9c9ff;
 }
