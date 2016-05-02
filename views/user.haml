@@ -103,6 +103,139 @@
             %figure
               = "#{@user_report['tweets_length']}"
 
+    / Prediction
+    .row
+      .col-md-12.header
+        %h1
+          Probability of Mental Disorder
+      .col-md-6.entity
+        .col-md-12
+          %label
+            Probability of Borderline Personality Disorder
+        .col.md.12
+          #bpd{:style => "width:100%"}
+      .col-md-6.entity
+        .col-md-12
+          %label
+            Probability of Bipolar Disorder
+        .col-md-12
+          #bipolar{:style => "width:100%"}
+      :javascript
+        var BPDProb = #{@user_report['BPD_probability']} * 100;
+        var bipolarProb = #{@user_report['bipolar_probability']} * 100;
+        $(function () {
+
+          var gaugeOptions = {
+
+            chart: {
+              type: 'solidgauge'
+            },
+
+            title: null,
+
+            pane: {
+              center: ['50%', '85%'],
+              size: '140%',
+              startAngle: -90,
+              endAngle: 90,
+              background: {
+                backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || '#EEE',
+                innerRadius: '60%',
+                outerRadius: '100%',
+                shape: 'arc'
+              }
+            },
+
+            tooltip: {
+              enabled: false
+            },
+
+            // the value axis
+            yAxis: {
+              stops: [
+                [0.1, '#c9c9ff'], // blue
+                [0.8, '#f1cbff'], // purple
+                [1.5, '#ffbfbd'], //red
+              ],
+              lineWidth: 0,
+              minorTickInterval: null,
+              tickPixelInterval: 400,
+              tickWidth: 0,
+              title: {
+                y: -70
+              },
+              labels: {
+                y: 16
+              }
+            },
+
+            plotOptions: {
+              solidgauge: {
+                dataLabels: {
+                  y: 5,
+                  borderWidth: 0,
+                  useHTML: true
+                }
+              }
+            }
+          };
+
+          // The bpd gauge
+          $('#bpd').highcharts(Highcharts.merge(gaugeOptions, {
+            yAxis: {
+              min: 0,
+              max: 100,
+            },
+
+            credits: {
+              enabled: false
+            },
+
+            series: [{
+              name: 'bpd',
+              data: [BPDProb],
+              dataLabels: {
+                format: '<div style="text-align:center"><figure>{y:.1f}</figure><br/>' +
+                  '<unity>%</unity></div>'
+              },
+              tooltip: {
+                valueSuffix: '%'
+              }
+            }]
+          }));
+
+          // The bipolar gauge
+          $('#bipolar').highcharts(Highcharts.merge(gaugeOptions, {
+            yAxis: {
+              min: 0,
+              max: 100,
+            },
+
+            series: [{
+              name: 'bipolar',
+              data: [bipolarProb],
+              dataLabels: {
+                format: '<div style="text-align:center"><figure>{y:.1f}</figure><br/>' +
+                  '<unity"> %</unity></div>'
+              },
+              tooltip: {
+                valueSuffix: '%'
+              }
+            }]
+          }));
+        });
+
+        function setDivHeight() {
+          var div = $('#bpd');
+          div.height(div.width() * 0.75);
+          div = $('#bipolar');
+          div.height(div.width() * 0.75);
+        }
+
+        $(window).on('load resize', function(){
+          setDivHeight();
+        });
+
     / Other Social Features
     .row
       .col-md-12.header
@@ -224,13 +357,13 @@
                 series: [{
                   name: 'Positive',
                   color: '#e1f7d5',
-                  borderWidth: 2,
+                  borderWidth: 1,
                   borderColor: '#e1f7d5',
                   data: positive_tweets
                 },{
                   name: "Negative",
                   color: '#ffbdbd',
-                  borderWidth: 2,
+                  borderWidth: 1,
                   borderColor: '#ffbdbd',
                   data: negative_tweets
                 }]
@@ -340,142 +473,6 @@
           .col-md-12
             %figure
               = "#{@user_report['flips_ratio'].round(4)}"
-
-    / Prediction
-    .row
-      .col-md-12.header
-        %h1
-          Probability of Mental Disorder
-      .col-md-6.entity
-        .col-md-12
-          %label
-            Probability of Borderline Personality Disorder
-        .col.md.12
-          #bpd{:style => "width:100%"}
-      .col-md-6.entity
-        .col-md-12
-          %label
-            Probability of Bipolar Disorder
-        .col-md-12
-          #bipolar{:style => "width:100%"}
-      :javascript
-        var BPDProb = #{@user_report['BPD_probability']} * 100;
-        var bipolarProb = #{@user_report['bipolar_probability']} * 100;
-        $(function () {
-
-          var gaugeOptions = {
-
-            chart: {
-              type: 'solidgauge'
-            },
-
-            title: null,
-
-            pane: {
-              center: ['50%', '85%'],
-              size: '140%',
-              startAngle: -90,
-              endAngle: 90,
-              background: {
-                backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || '#EEE',
-                innerRadius: '60%',
-                outerRadius: '100%',
-                shape: 'arc'
-              }
-            },
-
-            tooltip: {
-              enabled: false
-            },
-
-            // the value axis
-            yAxis: {
-              stops: [
-                [0.1, '#c9c9ff'], // blue
-                [0.8, '#f1cbff'], // purple
-              ],
-              lineWidth: 0,
-              minorTickInterval: null,
-              tickPixelInterval: 400,
-              tickWidth: 0,
-              title: {
-                y: -70
-              },
-              labels: {
-                y: 16
-              }
-            },
-
-            plotOptions: {
-              solidgauge: {
-                dataLabels: {
-                  y: 5,
-                  borderWidth: 0,
-                  useHTML: true
-                }
-              }
-            }
-          };
-
-          // The bpd gauge
-          $('#bpd').highcharts(Highcharts.merge(gaugeOptions, {
-            yAxis: {
-              min: 0,
-              max: 100,
-            },
-
-            credits: {
-              enabled: false
-            },
-
-            series: [{
-              name: 'bpd',
-              data: [BPDProb],
-              dataLabels: {
-                format: '<div style="text-align:center"><figure>{y:.1f}</figure><br/>' +
-                  '<unity>%</unity></div>'
-              },
-              tooltip: {
-                valueSuffix: '%'
-              }
-            }]
-          }));
-
-          // The bipolar gauge
-          $('#bipolar').highcharts(Highcharts.merge(gaugeOptions, {
-            yAxis: {
-              min: 0,
-              max: 100,
-            },
-
-            series: [{
-              name: 'bipolar',
-              data: [bipolarProb],
-              dataLabels: {
-                format: '<div style="text-align:center"><figure>{y:.1f}</figure><br/>' +
-                  '<unity"> %</unity></div>'
-              },
-              tooltip: {
-                valueSuffix: '%'
-              }
-            }]
-          }));
-        });
-
-        function setDivHeight() {
-          var div = $('#bpd');
-          div.height(div.width() * 0.75);
-          div = $('#bipolar');
-          div.height(div.width() * 0.75);
-        }
-
-        $(window).on('load resize', function(){
-          setDivHeight();
-        });
-
-
-
-
 
     / Word Cloud
     .row
