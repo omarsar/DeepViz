@@ -38,7 +38,7 @@ class DeepViz < Sinatra::Base
         {
           x: 0,
           low: Time.parse(tweet['time']).to_i,
-          high: Time.parse(tweet['time']).to_i + (tweet['dt'].to_i * 100),
+          high: Time.parse(tweet['time']).to_i + (tweet['dt'] * 60).to_i,
           text: tweet['text']
         }
       }
@@ -70,7 +70,7 @@ class DeepViz < Sinatra::Base
         {
           x: 0,
           low: Time.parse(tweet['time']).to_i,
-          high: Time.parse(tweet['time']).to_i + (tweet['dt'].to_i * 10),
+          high: Time.parse(tweet['time']).to_i + (tweet['dt'] * 60).to_i,
           text: tweet['text']
         }
       }
