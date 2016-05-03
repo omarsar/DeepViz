@@ -6,6 +6,8 @@
 %link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css", :integrity => "sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r", :rel => "stylesheet"}
 / Latest compiled and minified JavaScript
 %script{:crossorigin => "anonymous", :integrity => "sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"}
+/ dashboard CSS
+%link{:href => "/css/dashboard.css", :rel => "stylesheet"}
 
 /= "A Visualization Tool for Depression Prediction Results"
 /= "We are now using this API: #{@api_url}"
@@ -19,41 +21,67 @@
         .col-md-12
           .text-center
             %h1
-              = "Mental Disorder Detection and Analysis on Twitter"
-              %br
-              %br
+              Mental Disorder Detection and Analysis on Twitter
+            %h2
+              Compare two twitter user of your choice
 
         .col-md-12
           %form{:action => "/compare", :method => "get"}
-            .row
-              .col-md-6.col-md-offset-3
-
-                .input-group
-                  %span#sizing-addon1.input-group-addon @
-                  %input{:name => "username", :type => "input", :placeholder => "Enter Twitter Handle without @ symbol (e.g., realDonaldTrump, HillaryClinton )", :class => "form-control"}
-
-                  %span.input-group-btn
-                    %button.btn.btn-primary{:type => "submit"}
-                      = "Analyze"
-        .col-md-12.text-center
-          %h2
-            See an example of patient
-          %form{:action => "/bd", :method => "get"}
-            .row
-              .col-md-6.col-md-offset-3
-                %span.input-group-btn
-                  %button.btn{:type => "submit"}
-                    Bipolare disorder patient
-          %form{:action => "/bpd", :method => "get"}
-            .row
-              .col-md-6.col-md-offset-3
-                %span.input-group-btn
-                  %button.btn{:type => "submit"}
-                    Borderline personality disorder patient
+            .col-md-6
+              .row
+                .col-md-12.header.sample1
+                  %h2.text-center
+                    Sample 1:
+                .col-md-6.col-md-offset-3
+                  .input-group
+                    %span.input-group-addon
+                      %input{:type => "radio", :name => "sample1radio", :value => "username"}
+                    %span#sizing-addon1.input-group-addon @
+                    %input{:name => "username1", :type => "input", :placeholder => "username", :class => "form-control"}
+                  %br
+                  .input-group
+                    %span.input-group-addon
+                      %input{:type => "radio", :name => "sample1radio",:checked => "checked", :value => "bd"}
+                    %input{:placeholder => "Bipolare disorder patient", :class => "form-control", :readonly => ''}
+                  %br
+                  .input-group
+                    %span.input-group-addon
+                      %input{:type => "radio", :name => "sample1radio", :value => "bpd"}
+                    %input{:placeholder => "Borderline personality disorder patient", :class => "form-control", :readonly => ''}
+            .col-md-6
+              .row
+                .col-md-12.header.sample2
+                  %h2.text-center
+                    Sample 2:
+                .col-md-6.col-md-offset-3
+                  .input-group
+                    %span.input-group-addon
+                      %input{:type => "radio", :name => "sample2radio", :value => "username"}
+                    %span#sizing-addon1.input-group-addon @
+                    %input{:name => "username2", :type => "input", :placeholder => "username", :class => "form-control"}
+                  %br
+                  .input-group
+                    %span.input-group-addon
+                      %input{:type => "radio", :name => "sample2radio", :value => "bd"}
+                    %input{:placeholder => "Bipolare disorder patient", :class => "form-control", :readonly => ''}
+                  %br
+                  .input-group
+                    %span.input-group-addon
+                      %input{:type => "radio", :name => "sample2radio", :value => "bpd", :checked => "checked"}
+                    %input{:placeholder => "Borderline personality disorder patient", :class => "form-control", :readonly => ''}
+            .col-md-12
+              %br
+              %br
+              .text-center
+                %button.btn.btn-lg.btn-primary{:type => "submit"}
+                  Compare
 
         %br
         %br
         .col-md-12
+          %br
+          %br
+          %br
           .text-center
             = "Brought to you by "
             %a{:href => "https://idea.cs.nthu.edu.tw/"}
