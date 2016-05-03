@@ -12,7 +12,13 @@
   font-size: 12px;
 }
 
-.header {
+.header.sample1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #48D1CC;
+}
+
+.header.sample2 {
   margin-top: 30px;
   margin-bottom: 20px;
   background-color: #c9c9ff;

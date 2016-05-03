@@ -20,100 +20,77 @@ class DeepViz < Sinatra::Base
   # home for comparison dashbaord
   get '/compare' do
 
+    def getUserData(radio, username)
+      if radio == "username"
+        return HTTParty.get(API_URL + "predict_json_by_name?screen_name=#{username}")
+      else
+        if radio == "bd"
+          res = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{get_bipolar()}")
+          res['profile']['name'] = "Bipolar Patient"
+          res['profile']['screen_name'] = 'randomBipolarPatient'
+        else
+          res = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{get_bpd()}")
+          res['profile']['name'] = "BPD Patient"
+          res['profile']['screen_name'] = 'randomBPDPatient'
+        end
+        res['profile']['profile_image_url'] = 'https://pixabay.com/static/uploads/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'
+        res['profile']['profile_banner_url'] = 'https://pbs.twimg.com/profile_banners/6253282/1431474710/1500x500'
+        res['profile']['description'] = ''
+      end
+      res
+    end
+
+
     # information about queried user
-    @user_name = params['username']
-    @user_data = HTTParty.get(API_URL + "predict_json_by_name?screen_name=#{@user_name}")
+    @sample1_data = getUserData(params['sample1radio'], params['username1'])
+    @sample2_data = getUserData(params['sample2radio'], params['username2'])
 
     # separate the data into two pieces
-    @user_profile = @user_data['profile']
-    @user_report = @user_data['report']
+    @sample1_profile = @sample1_data['profile']
+    @sample1_report = @sample1_data['report']
 
-    @tweets_polarity = [
-      @user_report['positive_ratio'],
-      1 - @user_report['negative_ratio'] - @user_report['positive_ratio'],
-      @user_report['negative_ratio'],
-    ]
+    @sample2_profile = @sample2_data['profile']
+    @sample2_report = @sample2_data['report']
+
+    def getTweetsPolarityRatio(positive_ratio, negative_ratio)
+      [
+        positive_ratio,
+        1 - positive_ratio - negative_ratio,
+        negative_ratio
+      ]
+    end
+
+    @sample1_tweets_polarity = getTweetsPolarityRatio(@sample1_report['positive_ratio'], @sample1_report['negative_ratio'])
+
+    @sample2_tweets_polarity = getTweetsPolarityRatio(@sample2_report['positive_ratio'], @sample2_report['negative_ratio'])
 
     tweetParsing = Proc.new{ |tweet|
         {
           x: 0,
+          polarity: tweet['polarity'],
           low: Time.parse(tweet['time']).to_i,
           high: Time.parse(tweet['time']).to_i + (tweet['dt'] * 60).to_i,
           text: tweet['text']
         }
       }
 
-    @positive_tweets = @user_report['positive_tweets'].map(&tweetParsing).to_json
-    @negative_tweets = @user_report['negative_tweets'].map(&tweetParsing).to_json
 
-    @bpd_word_count = bpd_word_count(@user_data['BPD_words'])
-    haml :user
+
+    sample1_latest_tweets = @sample1_report['latest_tweets'].map(&tweetParsing)
+
+    @sample1_positive_tweets = (sample1_latest_tweets.select { |tweet| tweet[:polarity] == 1 }).to_json
+    @sample1_negative_tweets = (sample1_latest_tweets.select { |tweet| tweet[:polarity] == -1 }).to_json
+    @sample1_neutral_tweets = (sample1_latest_tweets.select { |tweet| tweet[:polarity] == 0 }).to_json
+
+    sample2_latest_tweets = @sample2_report['latest_tweets'].map(&tweetParsing)
+
+    @sample2_positive_tweets = (sample2_latest_tweets.select { |tweet| tweet[:polarity] == 1 }).to_json
+    @sample2_negative_tweets = (sample2_latest_tweets.select { |tweet| tweet[:polarity] == -1 }).to_json
+    @sample2_neutral_tweets = (sample2_latest_tweets.select { |tweet| tweet[:polarity] == 0 }).to_json
+
+    @sample1_bpd_word_count = bpd_word_count(@sample1_data['BPD_words'])
+
+    @sample2_bpd_word_count = bpd_word_count(@sample2_data['BPD_words'])
+    haml :compare
   end
-
-  # home for bpd users
-  get '/bpd' do
-    # information about queried user
-    @random_patient_name = get_bpd()
-    @user_data = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{@random_patient_name}")
-
-    # separate the data into two pieces
-    @user_profile = @user_data['profile']
-    @user_report = @user_data['report']
-
-    @tweets_polarity = [
-      @user_report['positive_ratio'],
-      1 - @user_report['negative_ratio'] - @user_report['positive_ratio'],
-      @user_report['negative_ratio'],
-    ]
-
-    tweetParsing = Proc.new{ |tweet|
-        {
-          x: 0,
-          low: Time.parse(tweet['time']).to_i,
-          high: Time.parse(tweet['time']).to_i + (tweet['dt'] * 60).to_i,
-          text: tweet['text']
-        }
-      }
-
-    @positive_tweets = @user_report['positive_tweets'].map(&tweetParsing).to_json
-    @negative_tweets = @user_report['negative_tweets'].map(&tweetParsing).to_json
-
-    @bpd_word_count = bpd_word_count(@user_data['BPD_words'])
-
-    haml :patient
-  end
-
-  # home for bp users
-  get '/bd' do
-    # information about queried user
-    @random_patient_name = get_bipolar()
-    @user_data = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{@random_patient_name}")
-
-    # separate the data into two pieces
-    @user_profile = @user_data['profile']
-    @user_report = @user_data['report']
-
-    @tweets_polarity = [
-      @user_report['positive_ratio'],
-      1 - @user_report['negative_ratio'] - @user_report['positive_ratio'],
-      @user_report['negative_ratio'],
-    ]
-
-    tweetParsing = Proc.new{ |tweet|
-        {
-          x: 0,
-          low: Time.parse(tweet['time']).to_i,
-          high: Time.parse(tweet['time']).to_i + (tweet['dt'].to_i * 10),
-          text: tweet['text']
-        }
-      }
-
-    @positive_tweets = @user_report['positive_tweets'].map(&tweetParsing).to_json
-    @negative_tweets = @user_report['negative_tweets'].map(&tweetParsing).to_json
-
-    @bpd_word_count = bpd_word_count(@user_data['BPD_words'])
-
-    haml :patient
-  end
-
 end
