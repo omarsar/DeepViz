@@ -11,6 +11,10 @@
 
 /= "A Visualization Tool for Depression Prediction Results"
 /= "We are now using this API: #{@api_url}"
+!!! 5
+%html
+%head
+  %title MDDAT - Understanding Mental Disorder Detection
 %body
   .panel.panel-default
     .panel-body
@@ -23,7 +27,7 @@
             %h1
               Mental Disorder Detection and Analysis on Twitter
             %h2
-              Compare two twitter user of your choice
+              Compare two twitter users of your choice
 
         .col-md-12
           %form{:action => "/compare", :method => "get"}
@@ -32,7 +36,7 @@
                 .col-md-12.header.sample1
                   %h2.text-center
                     Sample 1:
-                .col-md-6.col-md-offset-3
+                .col-md-8.col-md-offset-2
                   .input-group
                     %span.input-group-addon
                       %input{:type => "radio", :name => "sample1radio", :value => "username"}
@@ -42,18 +46,18 @@
                   .input-group
                     %span.input-group-addon
                       %input{:type => "radio", :name => "sample1radio",:checked => "checked", :value => "bd"}
-                    %input{:placeholder => "Bipolare disorder patient", :class => "form-control", :readonly => ''}
+                    %input{:placeholder => "Bipolar Disorder Patient", :class => "form-control", :readonly => ''}
                   %br
                   .input-group
                     %span.input-group-addon
                       %input{:type => "radio", :name => "sample1radio", :value => "bpd"}
-                    %input{:placeholder => "Borderline personality disorder patient", :class => "form-control", :readonly => ''}
+                    %input{:placeholder => "Borderline Personality Disorder Patient", :class => "form-control", :readonly => ''}
             .col-md-6
               .row
                 .col-md-12.header.sample2
                   %h2.text-center
                     Sample 2:
-                .col-md-6.col-md-offset-3
+                .col-md-8.col-md-offset-2
                   .input-group
                     %span.input-group-addon
                       %input{:type => "radio", :name => "sample2radio", :value => "username"}
@@ -63,12 +67,12 @@
                   .input-group
                     %span.input-group-addon
                       %input{:type => "radio", :name => "sample2radio", :value => "bd"}
-                    %input{:placeholder => "Bipolare disorder patient", :class => "form-control", :readonly => ''}
+                    %input{:placeholder => "Bipolar Disorder Patient", :class => "form-control", :readonly => ''}
                   %br
                   .input-group
                     %span.input-group-addon
                       %input{:type => "radio", :name => "sample2radio", :value => "bpd", :checked => "checked"}
-                    %input{:placeholder => "Borderline personality disorder patient", :class => "form-control", :readonly => ''}
+                    %input{:placeholder => "Borderline Personality Disorder Patient", :class => "form-control", :readonly => ''}
             .col-md-12
               %br
               %br

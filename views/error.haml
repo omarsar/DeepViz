@@ -1,0 +1,26 @@
+/ Get the javascript to work
+%script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
+/ Latest compiled and minified CSS
+%link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", :integrity => "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", :rel => "stylesheet"}
+/ Optional theme
+%link{:crossorigin => "anonymous", :href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css", :integrity => "sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r", :rel => "stylesheet"}
+/ Latest compiled and minified JavaScript
+%script{:crossorigin => "anonymous", :integrity => "sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"}
+/ dashboard CSS
+%link{:href => "/css/dashboard.css", :rel => "stylesheet"}
+
+!!! 5
+%html
+%head
+  %title MDDAT - Understanding Mental Disorder Detection
+%body
+  .panel.panel-default
+  .panel-body
+    .text-center
+      .row
+        .col-md-12.header.sample3
+          %h2= "Oops! Something went wrong :("
+          %h2= "Please make sure to input a valid twitter handle"
+      .row
+        %a{:href => "/"}
+          = "Go Back"
