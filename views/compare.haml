@@ -1,7 +1,7 @@
 !!! 5
 %html
 %head
-  %title DeepViz - Understanding Depression
+  %title MDDAT - Understanding Mental Disorder Detection
 
   / Get the javascript to work
   %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"}
@@ -31,112 +31,47 @@
 
 %body
   /Sample 1
-  .jumbotron.text-center.col-md-6{:style => "background-image: url(#{@sample1_profile['profile_banner_url']}); height: 500px; background-size: cover;"}
+  .jumbotron.text-center.col-md-6{:style => "background-image: url(#{@sample1_profile['profile_banner_url']}); height: 250px; background-size: cover;"}
     .row
       .col-md-4.col-md-offset-4{:style => "background-color: rgba(72,209,204, 0.8);"}
         %br
-        %img.img-circle{:alt => "", :height => "150", :src => "#{@sample1_profile['profile_image_url']}", :width => "150"}
-        %br
+        %img.img-circle{:alt => "", :height => "100", :src => "#{@sample1_profile['profile_image_url']}", :width => "100"}
         %br
         .lead
           = "#{@sample1_profile['name']}"
         = "@"+"#{@sample1_profile['screen_name']}"
         %br
-        = "#{@sample1_profile['description']}"
+        = "Age: " + "#{@sample1_report['age'].to_i}"
         %br
+        = "Gender: " + "#{@sample1_report['gender']}"
         %br
+        %br    
 
   /Sample 2
-  .jumbotron.text-center.col-md-6{:style => "background-image: url(#{@sample2_profile['profile_banner_url']}); height: 500px; background-size: cover;"}
+  .jumbotron.text-center.col-md-6{:style => "background-image: url(#{@sample2_profile['profile_banner_url']}); height: 250px; background-size: cover;"}
     .row
       .col-md-4.col-md-offset-4{:style => "background-color: rgba(201,201,255, 0.8);"}
         %br
-        %img.img-circle{:alt => "", :height => "150", :src => "#{@sample2_profile['profile_image_url']}", :width => "150"}
-        %br
+        %img.img-circle{:alt => "", :height => "100", :src => "#{@sample2_profile['profile_image_url']}", :width => "100"}
         %br
         .lead
           = "#{@sample2_profile['name']}"
         = "@"+"#{@sample2_profile['screen_name']}"
         %br
-        = "#{@sample2_profile['description']}"
+        = "Age: " + "#{@sample2_report['age'].to_i}"
+        %br
+        = "Gender: " + "#{@sample2_report['gender']}"
         %br
         %br
 
   / queried user
   .container
-
-    /Sample 1
-    / User Details
-    .row.col-md-6
-      .col-md-12.header.sample1
-        %h1
-          Profile Information
-      .col-md-12
-        / Age Prediction
-        .col-md-6.entity
-          .col-md-12
-            %label
-              Age Prediction:
-            .pull-right
-              %a.age_prediction{"data-placement"=>"right"}
-                %i.fa.fa-info
-          .col-md-12
-            %figure
-              = "#{@sample1_report['age'].to_i}"
-              %unity
-                year old
-
-        / Gender Prediction
-        .col-md-6.entity
-          .col-md-12
-            %label
-              Gender Prediction:
-            .pull-right
-              %a.gender_prediction{"data-placement"=>"right"}
-                %i.fa.fa-info
-          .col-md-12
-            %figure
-              = "#{@sample1_report['gender']}"
-
-    /Sample 2
-    / User Details
-    .row.col-md-6.left
-      .col-md-12.header.sample2
-        %h1
-          Profile Information
-      .col-md-12
-        / Age Prediction
-        .col-md-6.entity
-          .col-md-12
-            %label
-              Age Prediction:
-            .pull-right
-              %a.age_prediction{"data-placement"=>"right"}
-                %i.fa.fa-info
-          .col-md-12
-            %figure
-              = "#{@sample2_report['age'].to_i}"
-              %unity
-                year old
-
-        / Gender Prediction
-        .col-md-6.entity
-          .col-md-12
-            %label
-              Gender Prediction:
-            .pull-right
-              %a.gender_prediction{"data-placement"=>"right"}
-                %i.fa.fa-info
-          .col-md-12
-            %figure
-              = "#{@sample2_report['gender']}"
-
     / Sample 1
     / Prediction
-    .row.col-md-6
+    .row.col-md-6{:style=>"padding-top:40px"}
       .col-md-12.header.sample1
         %h1
-          Probability of Mental Disorder
+          Probability of Mental Disorders
       .col-md-12.entity
         .col-md-12
           %label
@@ -258,10 +193,10 @@
 
     /Sample 2
     / Prediction
-    .row.col-md-6
+    .row.col-md-6{:style=>"padding-top:40px"}
       .col-md-12.header.sample2
         %h1
-          Probability of Mental Disorder
+          Probability of Mental Disorders
       .col-md-12.entity
         .col-md-12
           %label
