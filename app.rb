@@ -21,23 +21,28 @@ class DeepViz < Sinatra::Base
   get '/compare' do
 
     def getUserData(radio, username)
-      if radio == "username"
-        return HTTParty.get(API_URL + "predict_json_by_name?screen_name=#{username}")
-      else
-        if radio == "bd"
-          res = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{get_bipolar()}")
-          res['profile']['name'] = "Bipolar Patient"
-          res['profile']['screen_name'] = 'randomBipolarPatient'
+      begin
+        if radio == "username"
+          return HTTParty.get(API_URL + "predict_json_by_name?screen_name=#{username}")
         else
-          res = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{get_bpd()}")
-          res['profile']['name'] = "BPD Patient"
-          res['profile']['screen_name'] = 'randomBPDPatient'
+          if radio == "bd"
+            res = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{get_bipolar()}")
+            res['profile']['name'] = "Bipolar Patient"
+            res['profile']['screen_name'] = 'randomBipolarPatient'
+          else
+            res = HTTParty.get(API_URL + "predict_json_by_id?user_id=#{get_bpd()}")
+            res['profile']['name'] = "BPD Patient"
+            res['profile']['screen_name'] = 'randomBPDPatient'
+          end
+          res['profile']['profile_image_url'] = 'https://pixabay.com/static/uploads/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'
+          res['profile']['profile_banner_url'] = 'https://pbs.twimg.com/profile_banners/6253282/1431474710/1500x500'
+          res['profile']['description'] = ''
         end
-        res['profile']['profile_image_url'] = 'https://pixabay.com/static/uploads/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png'
-        res['profile']['profile_banner_url'] = 'https://pbs.twimg.com/profile_banners/6253282/1431474710/1500x500'
-        res['profile']['description'] = ''
+        res
+      rescue => e
+        logger.info "FAILED to get user information: #{e.inspect}"
+        halt 404, "USER NOT FOUND: #{username}"
       end
-      res
     end
 
 
