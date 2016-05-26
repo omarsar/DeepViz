@@ -9,7 +9,22 @@ require './config/environment'
 class DeepViz < Sinatra::Base
   helpers Helpers
 
-  API_URL = ENV['API_URL']
+  # decide the API URL
+  def self.setapi(master, slave)
+    default = master
+    begin
+      response = HTTP.post(default)
+      if response.code == 200
+        return master
+      else
+        return slave
+      end
+    rescue
+      return slave
+    end
+  end
+
+  API_URL = setapi(ENV['API_URL_1'],ENV['API_URL_2'])
 
   # home url
   get '/?' do

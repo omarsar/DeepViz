@@ -1,4 +1,6 @@
 require 'json'
+require 'http'
+
 # module for helper function
 module Helpers
 	# function to return the word counts
@@ -95,5 +97,20 @@ module Helpers
       res['profile']['description'] = ''
     end
     res
+  end
+
+  # decide the API URL
+  def setapi(master, slave)
+    default = master
+    begin
+      response = HTTP.post(default)
+      if response.code == 200
+        return master
+      else
+        return slave
+      end
+    rescue
+      return slave
+    end
   end
 end

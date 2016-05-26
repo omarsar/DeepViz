@@ -6,6 +6,7 @@ gem 'haml'
 gem 'json'
 gem 'httparty'
 gem 'rerun'
+gem 'http'
 
 group :development, :test do
   gem 'config_env'
