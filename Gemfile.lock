@@ -3,8 +3,10 @@ GEM
   specs:
     addressable (2.4.0)
     config_env (0.1.2)
+    daemons (1.2.3)
     domain_name (0.5.20160310)
       unf (>= 0.0.5, < 1.0.0)
+    eventmachine (1.2.0.1)
     ffi (1.9.10)
     haml (4.0.7)
       tilt
@@ -38,6 +40,10 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
     tilt (2.0.2)
     unf (0.1.4)
       unf_ext
@@ -55,6 +61,7 @@ DEPENDENCIES
   puma
   rerun
   sinatra
+  thin
 
 BUNDLED WITH
    1.11.2
