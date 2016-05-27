@@ -1,4 +1,5 @@
 require 'sinatra'
+configure { set :server, :puma}
 require 'json'
 require 'haml'
 require 'httparty'
