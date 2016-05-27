@@ -3,6 +3,17 @@ require 'http'
 
 # module for helper function
 module Helpers
+
+  # function to prepare timeline data (bipolar first , then bpd)
+  def prepare_timeline_data(data)
+    timeline = []
+    data.each do |r|
+      timeline << [DateTime.parse(r[0]).to_time.to_i*1000,r[1]]
+    end
+    puts timeline
+    timeline
+  end
+
 	# function to return the word counts
 	def bpd_word_count(data)
 		word_count = []

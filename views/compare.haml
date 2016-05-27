@@ -314,6 +314,131 @@
           }));
         });
 
+    / Sample 1 Timeline
+    .row.col-md-6{:style=>"padding-top:40px"}
+      .col-md-12.header.sample1
+        %h1
+          Timeline
+      .col-md-12.entity
+        .col-md-12
+          %label
+            Timeline Trend
+        .col.md.12
+          #trend1{:style => "width:100%"}
+        :javascript
+          var bipolar_data = #{@sample1_timeline_bipolar}
+          var bpd_data = #{@sample1_timeline_bpd}
+          $(function(){
+            $('#trend1').highcharts({
+              chart: {
+                type: 'spline'
+              },
+              title: {
+                text: "Trending Mental Status"
+              },
+              subtitle: {
+                text: "Timeline"
+              },
+              xAxis: {
+                type: 'datetime',
+                dateTimeLabelFormats: {
+                  month:'%e. %b',
+                  year: '%b'
+                },
+                title: {
+                  text: 'Date'
+                }
+              },
+              yAxis: {
+                title: {
+                  text: "Probability"
+                },
+                min: 0
+              },
+              tooltip: {
+
+              },
+              plotOptions: {
+                spline: {
+                  marker: {
+                    enabled: true
+                  }
+                }
+              },
+              series: [{
+                  name: 'Bipolar',
+                  // Define the data points. All series have a dummy year
+                  // of 1970/71 in order to be compared on the same x axis. Note
+                  // that in JavaScript, months start at 0 for January, 1 for February etc.
+                  data: bipolar_data
+              }, {
+                  name: 'Borderline',
+                  data: bpd_data
+              }]
+            });
+          });
+          
+
+    / Sample 2 Timeline
+    .row.col-md-6{:style=>"padding-top:40px"}
+      .col-md-12.header.sample2
+        %h1
+          Timeline
+      .col-md-12.entity
+        .col-md-12
+          %label
+            Timeline Trend
+        .col.md.12
+          #trend2{:style => "width:100%"}
+        :javascript
+          var bipolar_data_2 = #{@sample2_timeline_bipolar}
+          var bpd_data_2 = #{@sample2_timeline_bpd}
+          $(function(){
+            $('#trend2').highcharts({
+              chart: {
+                type: 'spline'
+              },
+              title: {
+                text: "Trending Mental Status"
+              },
+              subtitle: {
+                text: "Timeline"
+              },
+              xAxis: {
+                type: 'datetime',
+                title: {
+                  text: 'Date'
+                }
+              },
+              yAxis: {
+                title: {
+                  text: "Probability"
+                },
+                min: 0
+              },
+              tooltip: {
+
+              },
+              plotOptions: {
+                spline: {
+                  marker: {
+                    enabled: true
+                  }
+                }
+              },
+              series: [{
+                  name: 'Bipolar',
+                  // Define the data points. All series have a dummy year
+                  // of 1970/71 in order to be compared on the same x axis. Note
+                  // that in JavaScript, months start at 0 for January, 1 for February etc.
+                  data: bipolar_data_2
+              }, {
+                  name: 'Borderline',
+                  data: bpd_data_2
+              }]
+            });
+          });
+
     / Sample 1
     / Other Social Features
     .row.col-md-6

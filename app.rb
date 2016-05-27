@@ -27,11 +27,17 @@ class DeepViz < Sinatra::Base
       @sample2_data = getUserData(params['sample2radio'], params['username2'], @api_url)
 
       # separate the data into two pieces
+      # Information for Sample 1
       @sample1_profile = @sample1_data['profile']
       @sample1_report = @sample1_data['report']
+      @sample1_timeline_bipolar = prepare_timeline_data(@sample1_data['timeline']['bipolar'])
+      @sample1_timeline_bpd = prepare_timeline_data(@sample1_data['timeline']['bpd'])
 
+      # Information for sample 2
       @sample2_profile = @sample2_data['profile']
       @sample2_report = @sample2_data['report']
+      @sample2_timeline_bipolar = prepare_timeline_data(@sample2_data['timeline']['bipolar'])
+      @sample2_timeline_bpd = prepare_timeline_data(@sample2_data['timeline']['bpd'])
 
       @sample1_tweets_polarity = getTweetsPolarityRatio(@sample1_report['positive_ratio'], @sample1_report['negative_ratio'])
 
@@ -41,8 +47,8 @@ class DeepViz < Sinatra::Base
           {
             x: 0,
             polarity: tweet['polarity'],
-            low: Time.parse(tweet['time']).to_i,
-            high: Time.parse(tweet['time']).to_i + (tweet['dt'] * 60).to_i,
+            low: DateTime.parse(tweet['time']).to_time.to_i*1000,
+            high: DateTime.parse(tweet['time']).to_time.to_i*1000 + (tweet['dt'] * 60000).to_i,
             text: tweet['text']
           }
         }
