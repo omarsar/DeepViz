@@ -1,1 +1,1 @@
-web: bundle exec puma -C puma.rb
+web: bundle exec thin start -R config.ru -p $PORT
