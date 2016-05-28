@@ -45,7 +45,7 @@
         %br
         = "Gender: " + "#{@sample1_report['gender']}"
         %br
-        %br    
+        %br
 
   /Sample 2
   .jumbotron.text-center.col-md-6{:style => "background-image: url(#{@sample2_profile['profile_banner_url']}); height: 250px; background-size: cover;"}
@@ -322,7 +322,7 @@
       .col-md-12.entity
         .col-md-12
           %label
-            Timeline 
+            Timeline
         .col.md.12
           #trend1{:style => "width:100%"}
         :javascript
@@ -353,7 +353,8 @@
                 title: {
                   text: "Probability"
                 },
-                min: 0
+                min: 0,
+                max: 1
               },
               tooltip: {
 
@@ -370,14 +371,16 @@
                   // Define the data points. All series have a dummy year
                   // of 1970/71 in order to be compared on the same x axis. Note
                   // that in JavaScript, months start at 0 for January, 1 for February etc.
-                  data: bipolar_data
+                  data: bipolar_data,
+                  color: '#48D1CC'
               }, {
                   name: 'Borderline',
-                  data: bpd_data
+                  data: bpd_data,
+                  color: '#9999cf',
               }]
             });
           });
-          
+
 
     / Sample 2 Timeline
     .row.col-md-6{:style=>"padding-top:40px"}
@@ -414,7 +417,8 @@
                 title: {
                   text: "Probability"
                 },
-                min: 0
+                min: 0,
+                max: 1
               },
               tooltip: {
 
@@ -431,10 +435,12 @@
                   // Define the data points. All series have a dummy year
                   // of 1970/71 in order to be compared on the same x axis. Note
                   // that in JavaScript, months start at 0 for January, 1 for February etc.
-                  data: bipolar_data_2
+                  data: bipolar_data_2,
+                  color: '#48D1CC'
               }, {
                   name: 'Borderline',
-                  data: bpd_data_2
+                  data: bpd_data_2,
+                  color: '#9999cf',
               }]
             });
           });

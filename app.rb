@@ -9,8 +9,8 @@ require './config/environment'
 class DeepViz < Sinatra::Base
   helpers Helpers
 
-  
-  #API_URL = 
+
+  #API_URL =
 
   # home url
   get '/?' do
