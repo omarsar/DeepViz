@@ -28,7 +28,7 @@ module Helpers
 
 		new_max = 20.0
 		new_min = 1.0
-		
+
 		firstword = word_count.first
 		lastword = word_count.last
 
@@ -36,7 +36,7 @@ module Helpers
 		new_range = new_max - new_min
 
 		word_count_scaled << {"text" => firstword['text'], "size" => 1}
-		
+
 		word_count.slice(1..-2).each do |word|
 			new_value = (((word['size'].to_i - word_count.first['size'].to_i) * new_range)/old_range) + new_min
 			word_count_scaled << {"text" => word['text'], "size" => new_value}
@@ -59,7 +59,7 @@ module Helpers
 				# search over the patient to look for that same key (word)
 				patient.each do |x,y|
 					if x == row[0]
-						patient_count << y	
+						patient_count << y
 					end
 				end
 				# have to get the values for the other two arrays
