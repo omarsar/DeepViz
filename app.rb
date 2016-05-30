@@ -15,6 +15,7 @@ class DeepViz < Sinatra::Base
   # home url
   get '/?' do
     @api_url = setapi(ENV['API_URL_1'],ENV['API_URL_2'])
+    redirect ENV["APP_URL"]
     haml :index
   end
 
