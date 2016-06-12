@@ -11,6 +11,7 @@ A Research Project by [IDEALab](https://github.com/IDEA-NTHU-Taiwan)
 * [Elvis Saravia](http://elvissaravia.com/) 
 * Chun-Hao Chang (a.k.a GB)
 * Renaud Jollet
+* [Yi-Shin Chen (Advisor)](http://www.yishin.info/)
 
 ## :point_right: TODO
 1. Compare similar accounts based on other features (e.g., age and gender)
