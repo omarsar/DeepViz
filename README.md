@@ -2,7 +2,7 @@
 A Research Project by [IDEALab](https://github.com/IDEA-NTHU-Taiwan)
 
 ## :point_right: Demo
-[MIDAS](http://bit.ly/ideamidas/)
+[MIDAS](http://bit.ly/ideamidas)
 
 ## :point_right: Dashboard Screenshot
 ![alt text](https://github.com/omarsar/DeepViz/blob/master/public/dashboard.png)
