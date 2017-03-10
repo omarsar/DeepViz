@@ -1,0 +1,2916 @@
+{
+  "BPD_words": [
+    [
+      "just", 
+      13
+    ], 
+    [
+      "like", 
+      12
+    ], 
+    [
+      "make", 
+      10
+    ], 
+    [
+      "machine", 
+      7
+    ], 
+    [
+      "good", 
+      6
+    ], 
+    [
+      "real", 
+      5
+    ], 
+    [
+      "need", 
+      5
+    ], 
+    [
+      "human", 
+      5
+    ], 
+    [
+      "thing", 
+      5
+    ], 
+    [
+      "using", 
+      4
+    ], 
+    [
+      "new", 
+      4
+    ], 
+    [
+      "guess", 
+      4
+    ], 
+    [
+      "easy", 
+      4
+    ], 
+    [
+      "business", 
+      4
+    ], 
+    [
+      "better", 
+      4
+    ], 
+    [
+      "button", 
+      4
+    ], 
+    [
+      "media", 
+      3
+    ], 
+    [
+      "way", 
+      3
+    ], 
+    [
+      "fun", 
+      3
+    ], 
+    [
+      "world", 
+      3
+    ], 
+    [
+      "type", 
+      3
+    ], 
+    [
+      "look", 
+      3
+    ], 
+    [
+      "start", 
+      3
+    ], 
+    [
+      "sure", 
+      3
+    ], 
+    [
+      "offer", 
+      3
+    ], 
+    [
+      "post", 
+      3
+    ], 
+    [
+      "know", 
+      3
+    ], 
+    [
+      "old", 
+      3
+    ], 
+    [
+      "feel", 
+      3
+    ], 
+    [
+      "love", 
+      3
+    ], 
+    [
+      "interesting", 
+      3
+    ], 
+    [
+      "time", 
+      3
+    ], 
+    [
+      "smart", 
+      3
+    ], 
+    [
+      "doing", 
+      2
+    ], 
+    [
+      "called", 
+      2
+    ], 
+    [
+      "sort", 
+      2
+    ], 
+    [
+      "beautiful", 
+      2
+    ], 
+    [
+      "hope", 
+      2
+    ], 
+    [
+      "best", 
+      2
+    ], 
+    [
+      "wish", 
+      2
+    ], 
+    [
+      "difficult", 
+      2
+    ], 
+    [
+      "used", 
+      2
+    ], 
+    [
+      "able", 
+      2
+    ], 
+    [
+      "talking", 
+      2
+    ], 
+    [
+      "board", 
+      2
+    ], 
+    [
+      "guy", 
+      2
+    ], 
+    [
+      "work", 
+      2
+    ], 
+    [
+      "case", 
+      2
+    ], 
+    [
+      "wonder", 
+      2
+    ], 
+    [
+      "help", 
+      2
+    ], 
+    [
+      "going", 
+      2
+    ], 
+    [
+      "engineers", 
+      2
+    ], 
+    [
+      "feels", 
+      2
+    ], 
+    [
+      "art", 
+      2
+    ], 
+    [
+      "plans", 
+      2
+    ], 
+    [
+      "realized", 
+      2
+    ], 
+    [
+      "tons", 
+      2
+    ], 
+    [
+      "excited", 
+      2
+    ], 
+    [
+      "things", 
+      2
+    ], 
+    [
+      "bubble", 
+      2
+    ], 
+    [
+      "depression", 
+      2
+    ], 
+    [
+      "really", 
+      2
+    ], 
+    [
+      "feeling", 
+      2
+    ], 
+    [
+      "kind", 
+      2
+    ], 
+    [
+      "working", 
+      2
+    ], 
+    [
+      "course", 
+      2
+    ], 
+    [
+      "instead", 
+      2
+    ], 
+    [
+      "current", 
+      2
+    ], 
+    [
+      "realize", 
+      2
+    ], 
+    [
+      "want", 
+      2
+    ], 
+    [
+      "talk", 
+      2
+    ], 
+    [
+      "entire", 
+      2
+    ], 
+    [
+      "hear", 
+      1
+    ], 
+    [
+      "addicted", 
+      1
+    ], 
+    [
+      "dealing", 
+      1
+    ], 
+    [
+      "beating", 
+      1
+    ], 
+    [
+      "support", 
+      1
+    ], 
+    [
+      "got", 
+      1
+    ], 
+    [
+      "king", 
+      1
+    ], 
+    [
+      "12", 
+      1
+    ], 
+    [
+      "energy", 
+      1
+    ], 
+    [
+      "learnt", 
+      1
+    ], 
+    [
+      "fingers", 
+      1
+    ], 
+    [
+      "high", 
+      1
+    ], 
+    [
+      "needs", 
+      1
+    ], 
+    [
+      "awareness", 
+      1
+    ], 
+    [
+      "admission", 
+      1
+    ], 
+    [
+      "probably", 
+      1
+    ], 
+    [
+      "hello", 
+      1
+    ], 
+    [
+      "east", 
+      1
+    ], 
+    [
+      "asian", 
+      1
+    ], 
+    [
+      "hoping", 
+      1
+    ], 
+    [
+      "market", 
+      1
+    ], 
+    [
+      "jump", 
+      1
+    ], 
+    [
+      "actually", 
+      1
+    ], 
+    [
+      "liking", 
+      1
+    ], 
+    [
+      "away", 
+      1
+    ], 
+    [
+      "reality", 
+      1
+    ], 
+    [
+      "quiet", 
+      1
+    ], 
+    [
+      "sorry", 
+      1
+    ], 
+    [
+      "fight", 
+      1
+    ], 
+    [
+      "weird", 
+      1
+    ], 
+    [
+      "simple", 
+      1
+    ], 
+    [
+      "allowed", 
+      1
+    ], 
+    [
+      "various", 
+      1
+    ], 
+    [
+      "having", 
+      1
+    ], 
+    [
+      "mental", 
+      1
+    ], 
+    [
+      "magic", 
+      1
+    ], 
+    [
+      "break", 
+      1
+    ], 
+    [
+      "required", 
+      1
+    ], 
+    [
+      "press", 
+      1
+    ], 
+    [
+      "means", 
+      1
+    ], 
+    [
+      "negative", 
+      1
+    ], 
+    [
+      "personal", 
+      1
+    ], 
+    [
+      "sending", 
+      1
+    ], 
+    [
+      "exists", 
+      1
+    ], 
+    [
+      "bought", 
+      1
+    ], 
+    [
+      "images", 
+      1
+    ], 
+    [
+      "progress", 
+      1
+    ], 
+    [
+      "cars", 
+      1
+    ], 
+    [
+      "kinda", 
+      1
+    ], 
+    [
+      "confused", 
+      1
+    ], 
+    [
+      "wants", 
+      1
+    ], 
+    [
+      "important", 
+      1
+    ], 
+    [
+      "feelings", 
+      1
+    ], 
+    [
+      "surrounded", 
+      1
+    ], 
+    [
+      "loves", 
+      1
+    ], 
+    [
+      "repeat", 
+      1
+    ], 
+    [
+      "user", 
+      1
+    ], 
+    [
+      "explain", 
+      1
+    ], 
+    [
+      "general", 
+      1
+    ], 
+    [
+      "size", 
+      1
+    ], 
+    [
+      "try", 
+      1
+    ], 
+    [
+      "hand", 
+      1
+    ], 
+    [
+      "reaction", 
+      1
+    ], 
+    [
+      "search", 
+      1
+    ], 
+    [
+      "come", 
+      1
+    ], 
+    [
+      "understanding", 
+      1
+    ], 
+    [
+      "researcher", 
+      1
+    ], 
+    [
+      "dream", 
+      1
+    ], 
+    [
+      "skills", 
+      1
+    ], 
+    [
+      "excellent", 
+      1
+    ], 
+    [
+      "social", 
+      1
+    ], 
+    [
+      "creation", 
+      1
+    ], 
+    [
+      "let", 
+      1
+    ], 
+    [
+      "led", 
+      1
+    ], 
+    [
+      "hidden", 
+      1
+    ], 
+    [
+      "vs", 
+      1
+    ], 
+    [
+      "psychologists", 
+      1
+    ], 
+    [
+      "end", 
+      1
+    ], 
+    [
+      "kim", 
+      1
+    ], 
+    [
+      "disorders", 
+      1
+    ], 
+    [
+      "days", 
+      1
+    ], 
+    [
+      "performance", 
+      1
+    ], 
+    [
+      "years", 
+      1
+    ], 
+    [
+      "fortune", 
+      1
+    ], 
+    [
+      "fast", 
+      1
+    ], 
+    [
+      "long", 
+      1
+    ], 
+    [
+      "left", 
+      1
+    ], 
+    [
+      "sell", 
+      1
+    ], 
+    [
+      "easier", 
+      1
+    ], 
+    [
+      "damn", 
+      1
+    ], 
+    [
+      "simply", 
+      1
+    ], 
+    [
+      "10", 
+      1
+    ], 
+    [
+      "match", 
+      1
+    ], 
+    [
+      "turn", 
+      1
+    ], 
+    [
+      "express", 
+      1
+    ], 
+    [
+      "apparently", 
+      1
+    ], 
+    [
+      "easily", 
+      1
+    ], 
+    [
+      "health", 
+      1
+    ], 
+    [
+      "knows", 
+      1
+    ], 
+    [
+      "balance", 
+      1
+    ], 
+    [
+      "code", 
+      1
+    ], 
+    [
+      "game", 
+      1
+    ], 
+    [
+      "finding", 
+      1
+    ], 
+    [
+      "shorter", 
+      1
+    ], 
+    [
+      "kids", 
+      1
+    ], 
+    [
+      "draft", 
+      1
+    ], 
+    [
+      "decided", 
+      1
+    ], 
+    [
+      "30", 
+      1
+    ], 
+    [
+      "rejection", 
+      1
+    ], 
+    [
+      "pretty", 
+      1
+    ], 
+    [
+      "saying", 
+      1
+    ], 
+    [
+      "limit", 
+      1
+    ], 
+    [
+      "tomorrow", 
+      1
+    ], 
+    [
+      "bring", 
+      1
+    ], 
+    [
+      "massive", 
+      1
+    ], 
+    [
+      "boring", 
+      1
+    ], 
+    [
+      "credit", 
+      1
+    ], 
+    [
+      "biggest", 
+      1
+    ], 
+    [
+      "helps", 
+      1
+    ], 
+    [
+      "bad", 
+      1
+    ], 
+    [
+      "lee", 
+      1
+    ], 
+    [
+      "said", 
+      1
+    ], 
+    [
+      "middle", 
+      1
+    ], 
+    [
+      "ready", 
+      1
+    ], 
+    [
+      "retweet", 
+      1
+    ], 
+    [
+      "happening", 
+      1
+    ], 
+    [
+      "brought", 
+      1
+    ], 
+    [
+      "represent", 
+      1
+    ], 
+    [
+      "months", 
+      1
+    ], 
+    [
+      "depressed", 
+      1
+    ], 
+    [
+      "reduce", 
+      1
+    ], 
+    [
+      "apple", 
+      1
+    ], 
+    [
+      "deal", 
+      1
+    ], 
+    [
+      "pages", 
+      1
+    ], 
+    [
+      "hey", 
+      1
+    ], 
+    [
+      "annoying", 
+      1
+    ]
+  ], 
+  "bipolar_words": [
+    [
+      "just", 
+      13
+    ], 
+    [
+      "like", 
+      12
+    ], 
+    [
+      "make", 
+      10
+    ], 
+    [
+      "machine", 
+      7
+    ], 
+    [
+      "think", 
+      6
+    ], 
+    [
+      "good", 
+      6
+    ], 
+    [
+      "facebook", 
+      5
+    ], 
+    [
+      "real", 
+      5
+    ], 
+    [
+      "human", 
+      5
+    ], 
+    [
+      "thing", 
+      5
+    ], 
+    [
+      "different", 
+      5
+    ], 
+    [
+      "need", 
+      5
+    ], 
+    [
+      "using", 
+      4
+    ], 
+    [
+      "easy", 
+      4
+    ], 
+    [
+      "research", 
+      4
+    ], 
+    [
+      "better", 
+      4
+    ], 
+    [
+      "great", 
+      4
+    ], 
+    [
+      "know", 
+      3
+    ], 
+    [
+      "feel", 
+      3
+    ], 
+    [
+      "way", 
+      3
+    ], 
+    [
+      "post", 
+      3
+    ], 
+    [
+      "time", 
+      3
+    ], 
+    [
+      "doing", 
+      2
+    ], 
+    [
+      "maybe", 
+      2
+    ], 
+    [
+      "importance", 
+      2
+    ], 
+    [
+      "beautiful", 
+      2
+    ], 
+    [
+      "baby", 
+      2
+    ], 
+    [
+      "yr", 
+      2
+    ], 
+    [
+      "hope", 
+      2
+    ], 
+    [
+      "best", 
+      2
+    ], 
+    [
+      "wish", 
+      2
+    ], 
+    [
+      "comes", 
+      2
+    ], 
+    [
+      "tough", 
+      2
+    ], 
+    [
+      "version", 
+      2
+    ], 
+    [
+      "used", 
+      2
+    ], 
+    [
+      "working", 
+      2
+    ], 
+    [
+      "able", 
+      2
+    ], 
+    [
+      "live", 
+      2
+    ], 
+    [
+      "guy", 
+      2
+    ], 
+    [
+      "work", 
+      2
+    ], 
+    [
+      "case", 
+      2
+    ], 
+    [
+      "makes", 
+      2
+    ], 
+    [
+      "help", 
+      2
+    ], 
+    [
+      "depression", 
+      2
+    ], 
+    [
+      "ways", 
+      2
+    ], 
+    [
+      "super", 
+      2
+    ], 
+    [
+      "perfect", 
+      2
+    ], 
+    [
+      "instead", 
+      2
+    ], 
+    [
+      "current", 
+      2
+    ], 
+    [
+      "little", 
+      2
+    ], 
+    [
+      "art", 
+      2
+    ], 
+    [
+      "wonder", 
+      2
+    ], 
+    [
+      "want", 
+      2
+    ], 
+    [
+      "feeling", 
+      2
+    ], 
+    [
+      "opportunity", 
+      2
+    ], 
+    [
+      "use", 
+      2
+    ], 
+    [
+      "questions", 
+      2
+    ], 
+    [
+      "usually", 
+      1
+    ], 
+    [
+      "awaiting", 
+      1
+    ], 
+    [
+      "given", 
+      1
+    ], 
+    [
+      "dealing", 
+      1
+    ], 
+    [
+      "born", 
+      1
+    ], 
+    [
+      "wife", 
+      1
+    ], 
+    [
+      "support", 
+      1
+    ], 
+    [
+      "got", 
+      1
+    ], 
+    [
+      "helping", 
+      1
+    ], 
+    [
+      "12", 
+      1
+    ], 
+    [
+      "today", 
+      1
+    ], 
+    [
+      "energy", 
+      1
+    ], 
+    [
+      "son", 
+      1
+    ], 
+    [
+      "excellent", 
+      1
+    ], 
+    [
+      "come", 
+      1
+    ], 
+    [
+      "existing", 
+      1
+    ], 
+    [
+      "profits", 
+      1
+    ], 
+    [
+      "said", 
+      1
+    ], 
+    [
+      "let", 
+      1
+    ], 
+    [
+      "awareness", 
+      1
+    ], 
+    [
+      "pies", 
+      1
+    ], 
+    [
+      "visit", 
+      1
+    ], 
+    [
+      "names", 
+      1
+    ], 
+    [
+      "probably", 
+      1
+    ], 
+    [
+      "retweet", 
+      1
+    ], 
+    [
+      "feed", 
+      1
+    ], 
+    [
+      "option", 
+      1
+    ], 
+    [
+      "article", 
+      1
+    ], 
+    [
+      "actually", 
+      1
+    ], 
+    [
+      "required", 
+      1
+    ], 
+    [
+      "obviously", 
+      1
+    ], 
+    [
+      "try", 
+      1
+    ], 
+    [
+      "hoping", 
+      1
+    ], 
+    [
+      "medicine", 
+      1
+    ], 
+    [
+      "gain", 
+      1
+    ], 
+    [
+      "checking", 
+      1
+    ], 
+    [
+      "disorders", 
+      1
+    ], 
+    [
+      "size", 
+      1
+    ], 
+    [
+      "means", 
+      1
+    ], 
+    [
+      "apps", 
+      1
+    ], 
+    [
+      "emotion", 
+      1
+    ], 
+    [
+      "lists", 
+      1
+    ], 
+    [
+      "long", 
+      1
+    ], 
+    [
+      "published", 
+      1
+    ], 
+    [
+      "health", 
+      1
+    ], 
+    [
+      "particular", 
+      1
+    ], 
+    [
+      "quiet", 
+      1
+    ], 
+    [
+      "gets", 
+      1
+    ], 
+    [
+      "sorry", 
+      1
+    ], 
+    [
+      "layers", 
+      1
+    ], 
+    [
+      "10", 
+      1
+    ], 
+    [
+      "life", 
+      1
+    ], 
+    [
+      "online", 
+      1
+    ], 
+    [
+      "field", 
+      1
+    ], 
+    [
+      "years", 
+      1
+    ], 
+    [
+      "break", 
+      1
+    ], 
+    [
+      "road", 
+      1
+    ], 
+    [
+      "transmitting", 
+      1
+    ], 
+    [
+      "dream", 
+      1
+    ], 
+    [
+      "bite", 
+      1
+    ], 
+    [
+      "apparently", 
+      1
+    ], 
+    [
+      "email", 
+      1
+    ], 
+    [
+      "launched", 
+      1
+    ], 
+    [
+      "east", 
+      1
+    ], 
+    [
+      "finding", 
+      1
+    ], 
+    [
+      "step", 
+      1
+    ], 
+    [
+      "various", 
+      1
+    ], 
+    [
+      "having", 
+      1
+    ], 
+    [
+      "awesome", 
+      1
+    ], 
+    [
+      "tweet", 
+      1
+    ], 
+    [
+      "express", 
+      1
+    ], 
+    [
+      "mental", 
+      1
+    ], 
+    [
+      "answers", 
+      1
+    ], 
+    [
+      "reality", 
+      1
+    ], 
+    [
+      "recognition", 
+      1
+    ], 
+    [
+      "30", 
+      1
+    ], 
+    [
+      "happened", 
+      1
+    ], 
+    [
+      "jumped", 
+      1
+    ], 
+    [
+      "negative", 
+      1
+    ], 
+    [
+      "tomorrow", 
+      1
+    ], 
+    [
+      "game", 
+      1
+    ], 
+    [
+      "trump", 
+      1
+    ], 
+    [
+      "dreams", 
+      1
+    ], 
+    [
+      "tired", 
+      1
+    ], 
+    [
+      "helps", 
+      1
+    ], 
+    [
+      "bought", 
+      1
+    ], 
+    [
+      "gotta", 
+      1
+    ], 
+    [
+      "contribute", 
+      1
+    ], 
+    [
+      "cars", 
+      1
+    ], 
+    [
+      "war", 
+      1
+    ], 
+    [
+      "challenge", 
+      1
+    ], 
+    [
+      "problem", 
+      1
+    ], 
+    [
+      "mean", 
+      1
+    ], 
+    [
+      "easier", 
+      1
+    ], 
+    [
+      "platform", 
+      1
+    ], 
+    [
+      "important", 
+      1
+    ], 
+    [
+      "confused", 
+      1
+    ], 
+    [
+      "months", 
+      1
+    ], 
+    [
+      "depressed", 
+      1
+    ], 
+    [
+      "apple", 
+      1
+    ], 
+    [
+      "explain", 
+      1
+    ], 
+    [
+      "general", 
+      1
+    ], 
+    [
+      "understand", 
+      1
+    ], 
+    [
+      "annoying", 
+      1
+    ]
+  ], 
+  "profile": {
+    "contributors_enabled": false, 
+    "created_at": "Fri Sep 04 12:59:26 +0000 2015", 
+    "default_profile": false, 
+    "default_profile_image": false, 
+    "description": "Researcher, founder (@ibelmopan), and proud first-time dad; \ud83d\udc93creating communities.", 
+    "entities": {
+      "description": {
+        "urls": []
+      }, 
+      "url": {
+        "urls": [
+          {
+            "display_url": "elvissaravia.com", 
+            "expanded_url": "http://elvissaravia.com", 
+            "indices": [
+              0, 
+              23
+            ], 
+            "url": "https://t.co/xKla12Y9yv"
+          }
+        ]
+      }
+    }, 
+    "favourites_count": 1505, 
+    "follow_request_sent": false, 
+    "followers_count": 171, 
+    "following": false, 
+    "friends_count": 270, 
+    "geo_enabled": false, 
+    "has_extended_profile": false, 
+    "id": 3448284313, 
+    "id_str": "3448284313", 
+    "is_translation_enabled": false, 
+    "is_translator": false, 
+    "lang": "en", 
+    "listed_count": 148, 
+    "location": "", 
+    "name": "elvis", 
+    "notifications": false, 
+    "profile_background_color": "000000", 
+    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png", 
+    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png", 
+    "profile_background_tile": false, 
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3448284313/1457249837", 
+    "profile_image_url": "http://pbs.twimg.com/profile_images/835325178116648960/b-0eTd5V_400x400.jpg", 
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/835325178116648960/b-0eTd5V_normal.jpg", 
+    "profile_link_color": "1B95E0", 
+    "profile_location": null, 
+    "profile_sidebar_border_color": "000000", 
+    "profile_sidebar_fill_color": "000000", 
+    "profile_text_color": "000000", 
+    "profile_use_background_image": false, 
+    "protected": false, 
+    "screen_name": "omarsar0", 
+    "status": {
+      "contributors": null, 
+      "coordinates": null, 
+      "created_at": "Tue Mar 29 12:03:31 +0000 2016", 
+      "entities": {
+        "hashtags": [
+          {
+            "indices": [
+              74, 
+              82
+            ], 
+            "text": "startup"
+          }, 
+          {
+            "indices": [
+              83, 
+              92
+            ], 
+            "text": "research"
+          }, 
+          {
+            "indices": [
+              93, 
+              103
+            ], 
+            "text": "challenge"
+          }
+        ], 
+        "symbols": [], 
+        "urls": [
+          {
+            "display_url": "medium.com/@ibelmopan/60-\u2026", 
+            "expanded_url": "https://medium.com/@ibelmopan/60-days-away-from-social-media-737b12d6574d#.si553xsxj", 
+            "indices": [
+              50, 
+              73
+            ], 
+            "url": "https://t.co/4VheZqCQbf"
+          }
+        ], 
+        "user_mentions": []
+      }, 
+      "favorite_count": 3, 
+      "favorited": false, 
+      "geo": null, 
+      "id": 714785054178680833, 
+      "id_str": "714785054178680833", 
+      "in_reply_to_screen_name": null, 
+      "in_reply_to_status_id": null, 
+      "in_reply_to_status_id_str": null, 
+      "in_reply_to_user_id": null, 
+      "in_reply_to_user_id_str": null, 
+      "is_quote_status": false, 
+      "lang": "en", 
+      "place": null, 
+      "possibly_sensitive": false, 
+      "retweet_count": 0, 
+      "retweeted": false, 
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>", 
+      "text": "I just published \u201c60 Days Away From Social Media\u201d https://t.co/4VheZqCQbf #startup #research #challenge", 
+      "truncated": false
+    }, 
+    "statuses_count": 742, 
+    "time_zone": null, 
+    "translator_type": "none", 
+    "url": "https://t.co/xKla12Y9yv", 
+    "utc_offset": null, 
+    "verified": false
+  }, 
+  "report": {
+    "BPD_probability": 0.0859375, 
+    "age": 28.935857428179332, 
+    "bipolar_probability": 0.2421875, 
+    "combo_tweets": {
+      "neg_tweets": [], 
+      "pos_tweets": []
+    }, 
+    "flip_tweets": [
+      [
+        {
+          "dt": 8.2333333333, 
+          "polarity": 1, 
+          "text": "@bentossell and eventually graduate them to moderators depending on the quality of posts. :)", 
+          "time": "2016-03-10 08:54:04"
+        }, 
+        {
+          "dt": 4.25, 
+          "polarity": -1, 
+          "text": "@bentossell sorry I think I confused moderators and people able to post. I am refered to the latter.", 
+          "time": "2016-03-10 09:02:18"
+        }
+      ]
+    ], 
+    "flips_ratio": 0.0, 
+    "frequent_mentioning": 6.0, 
+    "gender": "Male", 
+    "latest_tweets": [
+      {
+        "dt": 5576.45, 
+        "polarity": 1, 
+        "text": "Hey @launchticker I love your newsletters. Concise and informative. Time-saving is my takeaway. What's next?", 
+        "time": "2015-09-04 14:12:21"
+      }, 
+      {
+        "dt": 4553.4, 
+        "polarity": 1, 
+        "text": "Excited to give my first lightning talk at #rubyconftw", 
+        "time": "2015-09-08 11:08:48"
+      }, 
+      {
+        "dt": 785.95, 
+        "polarity": 1, 
+        "text": "Thanks guys, had tons of fun on my lightning speech about research and stuff. #rubyconftw", 
+        "time": "2015-09-11 15:02:12"
+      }, 
+      {
+        "dt": 15195.9833333333, 
+        "polarity": 1, 
+        "text": "@vipulnsward great intro to react. I will take a look at your tutorials. #rubyconftw", 
+        "time": "2015-09-12 04:08:09"
+      }, 
+      {
+        "dt": 1151.8833333333, 
+        "polarity": 0, 
+        "text": "@carsonjonze I feel like most tweets today are machine generated with the exception of these type of tweets which are engaging by nature.", 
+        "time": "2015-09-22 17:24:08"
+      }, 
+      {
+        "dt": 7611.3333333333, 
+        "polarity": 0, 
+        "text": "@carsonjonze I realized it's a great opportunity for real @twitter users to gain some traction.  Artificial tweets are boring and annoying.", 
+        "time": "2015-09-23 12:36:01"
+      }, 
+      {
+        "dt": 500.0666666667, 
+        "polarity": 1, 
+        "text": "@sama I would prefer to go with this: it's a bubble if it has the pattern of a bubble - - the rest are just assumptions.", 
+        "time": "2015-09-28 19:27:21"
+      }, 
+      {
+        "dt": 14846.8833333333, 
+        "polarity": 0, 
+        "text": "@sama that is the pattern I am talking about.", 
+        "time": "2015-09-29 03:47:25"
+      }, 
+      {
+        "dt": 31227.75, 
+        "polarity": 0, 
+        "text": "Basically,  you need to search for people who compliment your skills not match them. #startup #entrepreneur", 
+        "time": "2015-10-09 11:14:18"
+      }, 
+      {
+        "dt": 6638.7, 
+        "polarity": 0, 
+        "text": "Instead of recommending me a bunch of weird hashtags you can try to offer me personalized hashtags that are engaging and hot. #helloworld", 
+        "time": "2015-10-31 03:42:03"
+      }, 
+      {
+        "dt": 12718.0333333333, 
+        "polarity": 1, 
+        "text": "@TwitterAds is this being streamed? Hello from East Asia.", 
+        "time": "2015-11-04 18:20:45"
+      }, 
+      {
+        "dt": 93153.7666666667, 
+        "polarity": 0, 
+        "text": "#startup  https://t.co/uTNNeak36M", 
+        "time": "2015-11-13 14:18:47"
+      }, 
+      {
+        "dt": 5.0666666667, 
+        "polarity": 0, 
+        "text": "\"Learn to fail\" vs \"pain\" #startup #GrowthHacking via @ibelmopan https://t.co/HX65nWxxYS", 
+        "time": "2016-01-17 06:52:33"
+      }, 
+      {
+        "dt": 19128.2333333333, 
+        "polarity": 0, 
+        "text": "Vision is the new microprocessor #startup #GrowthHacking via @ibelmopan https://t.co/tciodrH5mW", 
+        "time": "2016-01-17 06:57:37"
+      }, 
+      {
+        "dt": 37149.1333333333, 
+        "polarity": 0, 
+        "text": "3 out of 12 smart bots are finished. 9 more to go.  @ibelmopan https://t.co/qU36xeriWp #ai #agents #bots #tech #startup #DM", 
+        "time": "2016-01-30 13:45:51"
+      }, 
+      {
+        "dt": 4.3833333333, 
+        "polarity": 0, 
+        "text": "Dreams do come true. Now I can do my #research and continue engineering my #bots. #ai #tech https://t.co/nRDkXIhFPk", 
+        "time": "2016-02-25 08:54:59"
+      }, 
+      {
+        "dt": 65.2, 
+        "polarity": 0, 
+        "text": "Reporting on my current progress of my bots very soon (blog post and code).  3 finished, 9 to go. #bots #python #ruby", 
+        "time": "2016-02-25 08:59:22"
+      }, 
+      {
+        "dt": 2429.1833333333, 
+        "polarity": 0, 
+        "text": "Building all these bots simultaneously gives me a feeling that a general bot is possible. #bots #ai #tech", 
+        "time": "2016-02-25 10:04:34"
+      }, 
+      {
+        "dt": 2.85, 
+        "polarity": 0, 
+        "text": "Collecting a massive dataset for my NN concept extraction algorithm. The best thing is that it comes partially labeled by humans.  #ai #ml", 
+        "time": "2016-02-27 02:33:45"
+      }, 
+      {
+        "dt": 5.4333333333, 
+        "polarity": 0, 
+        "text": "GridFS you are somewhat beautiful but difficult to understand. #mongodb #db", 
+        "time": "2016-02-27 02:36:36"
+      }, 
+      {
+        "dt": 63.95, 
+        "polarity": 0, 
+        "text": "A live database on dropbox is guaranteed madness but it works.  #mongodb #cloud", 
+        "time": "2016-02-27 02:42:02"
+      }, 
+      {
+        "dt": 16.65, 
+        "polarity": 0, 
+        "text": "Any good DB migration libraries out there? Example: Migrating from #MongoDB to #PostgreSQL #ruby #python", 
+        "time": "2016-02-27 03:45:59"
+      }, 
+      {
+        "dt": 5.95, 
+        "polarity": 0, 
+        "text": "I just find out there are tons of solution that offer Dropbox as a Database services. I just configured mines on my own for free. #tech", 
+        "time": "2016-02-27 04:02:38"
+      }, 
+      {
+        "dt": 34.9, 
+        "polarity": 0, 
+        "text": "Let's see what this baby has to offer my NN algorithms. #cuda #gpu #nvidia https://t.co/6whuyAZzZs", 
+        "time": "2016-02-27 04:08:35"
+      }, 
+      {
+        "dt": 85.45, 
+        "polarity": -1, 
+        "text": "If my #DB is on dropbox then that means to need to backup and restore to move to another machine. Hope it doesn't break the #cloud.", 
+        "time": "2016-02-27 04:43:29"
+      }, 
+      {
+        "dt": 6933.8666666667, 
+        "polarity": 0, 
+        "text": "Time to start messing with the new Rails 5.0.0.beta1 #rails #ruby #actioncable", 
+        "time": "2016-02-27 06:08:56"
+      }, 
+      {
+        "dt": 113.4666666667, 
+        "polarity": 0, 
+        "text": "Someone should have already created an AI to refactor code. #code #python #ai", 
+        "time": "2016-03-03 01:42:48"
+      }, 
+      {
+        "dt": 172.4166666667, 
+        "polarity": 0, 
+        "text": "Reviewing is fun and so is being reviewed. #research #reviewed", 
+        "time": "2016-03-03 03:36:16"
+      }, 
+      {
+        "dt": 2.1833333333, 
+        "polarity": 0, 
+        "text": "Scrolling through Google Images made me realize that things are sophisticatedly disorganized.  How to organize them? #ai #machinelearning", 
+        "time": "2016-03-03 06:28:41"
+      }, 
+      {
+        "dt": 1.8666666667, 
+        "polarity": 0, 
+        "text": "If web 2.0 sites knew the importance of machine learning today, they would have engineered better ways to collect user content. #ai #tech", 
+        "time": "2016-03-03 06:30:52"
+      }, 
+      {
+        "dt": 1.1166666667, 
+        "polarity": -1, 
+        "text": "Databases are not enough. Additionally, categorical data is tough to collect.  Facebook will emerge winner.", 
+        "time": "2016-03-03 06:32:44"
+      }, 
+      {
+        "dt": 17.5833333333, 
+        "polarity": 0, 
+        "text": "Facebook has mastered the art of crowd-sourcing.  #ai #startup #tech", 
+        "time": "2016-03-03 06:33:51"
+      }, 
+      {
+        "dt": 2813.2833333333, 
+        "polarity": 0, 
+        "text": "How Facebook has mastered the art of crowd-sourcing @ibelmopan https://t.co/Srd82YTrEV", 
+        "time": "2016-03-03 06:51:26"
+      }, 
+      {
+        "dt": 1412.9666666667, 
+        "polarity": 0, 
+        "text": "There is an #elvis on this mountain of food. https://t.co/zvQfg9sVXD", 
+        "time": "2016-03-05 05:44:43"
+      }, 
+      {
+        "dt": 129.1333333333, 
+        "polarity": 0, 
+        "text": "Editing two papers on a Sunday... Fingers crossed.  #review #datamining #research https://t.co/Tq4mYFq2RA", 
+        "time": "2016-03-06 05:17:41"
+      }, 
+      {
+        "dt": 1.4833333333, 
+        "polarity": 0, 
+        "text": "Stackoverflow questions get tougher to answer. Reputation is tough business there. \ud83d\ude16\ud83d\ude16\ud83d\ude16 #reputation #stackoverflow #tech", 
+        "time": "2016-03-06 07:26:49"
+      }, 
+      {
+        "dt": 2.4, 
+        "polarity": 0, 
+        "text": "The stackverflow for acedemia is even tougher but very useful. #academia #SO #review #tips #startup", 
+        "time": "2016-03-06 07:28:18"
+      }, 
+      {
+        "dt": 43.9, 
+        "polarity": 0, 
+        "text": "Now there are ConvNets for everything. #convnet #deep #ai #startup", 
+        "time": "2016-03-06 07:30:42"
+      }, 
+      {
+        "dt": 4.9666666667, 
+        "polarity": 0, 
+        "text": "Since people can now use Facebook Like button to show different reactions, will there be a decrease in the use of stickers. #startup #think", 
+        "time": "2016-03-06 08:14:36"
+      }, 
+      {
+        "dt": 104.6666666667, 
+        "polarity": -1, 
+        "text": "One way to not feel the rejection of one paper is to already be working on another. \ud83d\ude06\ud83d\ude06\ud83d\ude06 #rejection #research #tip #tech", 
+        "time": "2016-03-06 08:19:34"
+      }, 
+      {
+        "dt": 3.5166666667, 
+        "polarity": 0, 
+        "text": "I guess Twitter is on a mission to make #gifs go super mainstream. I wonder if they have any plans to make educational gifs. #startup #hello", 
+        "time": "2016-03-06 10:04:14"
+      }, 
+      {
+        "dt": 780.2333333333, 
+        "polarity": -1, 
+        "text": "When talking about platforms for reward, Youtube is the king of them all. Too bad I am not a youtuber... in consideration. #youtube #startup", 
+        "time": "2016-03-06 10:07:45"
+      }, 
+      {
+        "dt": 3.8, 
+        "polarity": 0, 
+        "text": "Prof. @soumyaray asked us to benchmark our version of luhn algorithm. First test. #benchmark #security #ruby https://t.co/BSZcgg0ari", 
+        "time": "2016-03-06 23:07:59"
+      }, 
+      {
+        "dt": 2.3666666667, 
+        "polarity": 0, 
+        "text": "I am testing against a widely accepted version of luhn alg. found on SO. #refactoring #benchmarking #ruby #security https://t.co/oboDgLaTzY", 
+        "time": "2016-03-06 23:11:47"
+      }, 
+      {
+        "dt": 77.2333333333, 
+        "polarity": 0, 
+        "text": "It's a local bechmark test, so I am not sure how it will perform on the real benchmark script provided. #security #luhn #ruby", 
+        "time": "2016-03-06 23:14:09"
+      }, 
+      {
+        "dt": 269.5166666667, 
+        "polarity": 0, 
+        "text": "There is no such thing as a perfect environment. You just gotta work with what you have.  #tech #startup #coding", 
+        "time": "2016-03-07 00:31:23"
+      }, 
+      {
+        "dt": 1582.4833333333, 
+        "polarity": 0, 
+        "text": "Nobody makes a person out of you,  you make a person out of yourself.  #startup #research", 
+        "time": "2016-03-07 05:00:54"
+      }, 
+      {
+        "dt": 48.75, 
+        "polarity": 0, 
+        "text": "How convenient that @TeamViewer can be launched from the terminal.", 
+        "time": "2016-03-08 07:23:23"
+      }, 
+      {
+        "dt": 10.3, 
+        "polarity": 0, 
+        "text": "What is with ruby and this underscore business? I kinda like it #ruby \ud83d\ude12\ud83d\ude12\ud83d\ude12", 
+        "time": "2016-03-08 08:12:08"
+      }, 
+      {
+        "dt": 11.6833333333, 
+        "polarity": -1, 
+        "text": "We are training a machine to decipher whether someone is depressed or not. I am detected 2 /10, I hope I don't surpass that.  #ML #emotion", 
+        "time": "2016-03-08 08:22:26"
+      }, 
+      {
+        "dt": 135.65, 
+        "polarity": 0, 
+        "text": "There is a reverse function on #ruby : \"omarsar\".reverse -&gt; \"rasramo\", I wonder if there is a word reverse: \"omar sar\".wrev -&gt; \"sar omar\"", 
+        "time": "2016-03-08 08:34:07"
+      }, 
+      {
+        "dt": 53.4, 
+        "polarity": 0, 
+        "text": "@kidargueta how about fear?", 
+        "time": "2016-03-08 10:49:46"
+      }, 
+      {
+        "dt": 47.4833333333, 
+        "polarity": 0, 
+        "text": "There is no such thing as retaking a course. It's not like we give 100% attention on all sessions. #learning #nextgen #security", 
+        "time": "2016-03-08 11:43:10"
+      }, 
+      {
+        "dt": 39.2666666667, 
+        "polarity": 1, 
+        "text": "@kidargueta interesting... Fear is said to be the easiest one to express but maybe not easy to detect from the outside.  Keep up the work...", 
+        "time": "2016-03-08 12:30:39"
+      }, 
+      {
+        "dt": 10.1666666667, 
+        "polarity": 0, 
+        "text": "I never knew benchmarking could be so much fun. I am learning so many things by just doing a few. #ruby #benchmarking", 
+        "time": "2016-03-08 13:09:55"
+      }, 
+      {
+        "dt": 258.7333333333, 
+        "polarity": 0, 
+        "text": "Elegance is not as fast as I thought. More complexity in the backend, more beautiful in the front-end #ruby #benchmarking #security", 
+        "time": "2016-03-08 13:20:05"
+      }, 
+      {
+        "dt": 877.1833333333, 
+        "polarity": 0, 
+        "text": "5 pages done, only 3 more to go... Is the California dream possible? #research #emotion #psychology #MDA #MDD", 
+        "time": "2016-03-08 17:38:49"
+      }, 
+      {
+        "dt": 1.3333333333, 
+        "polarity": 0, 
+        "text": "I guess Algorithms make other people famous. Such is the case of #LeeSedol. I want to know about the people behind #AlphaGo #startup \ud83d\ude1b\ud83d\ude1b\ud83d\ude1b", 
+        "time": "2016-03-09 08:16:00"
+      }, 
+      {
+        "dt": 1.3166666667, 
+        "polarity": 0, 
+        "text": "A simple case of the #engineer being put on the side. Who cares if the computer beat a human; the engineers' intelectuality beat the human.", 
+        "time": "2016-03-09 08:17:20"
+      }, 
+      {
+        "dt": 76.4666666667, 
+        "polarity": 0, 
+        "text": "The media makes it look like a machine is something that is born on its own; Typical undervaluing of the modern-day  #computer #scientist.", 
+        "time": "2016-03-09 08:18:39"
+      }, 
+      {
+        "dt": 264.5333333333, 
+        "polarity": 0, 
+        "text": "It's not a surprise that a bunch of computer engineers, mathematicians, business-men and psychologists beat a guy at a board game. #AlphaGo", 
+        "time": "2016-03-09 09:35:07"
+      }, 
+      {
+        "dt": 951.4333333333, 
+        "polarity": -1, 
+        "text": "So the problem now is not the length of the paper but rather the conciseness. Triple R I like to call it.  #reducing #researching #reviewing", 
+        "time": "2016-03-09 13:59:39"
+      }, 
+      {
+        "dt": 1.9333333333, 
+        "polarity": -1, 
+        "text": "@TechCrunch @rrhoover @ProductHunt still not convinced, I have abandoned PH for obviously feeling left out. Still can't contribute to it.", 
+        "time": "2016-03-10 05:51:05"
+      }, 
+      {
+        "dt": 2.2666666667, 
+        "polarity": 0, 
+        "text": "I have brought the topic of PH over and over again. Since I only get updates from the same people,  I unsubscribed. It's a little biased.", 
+        "time": "2016-03-10 05:53:01"
+      }, 
+      {
+        "dt": 4.9, 
+        "polarity": 0, 
+        "text": "I still visit @ProductHunt but very infrequently. Twitter lists helps me to get what I need.  And I can post my hunts for free.", 
+        "time": "2016-03-10 05:55:17"
+      }, 
+      {
+        "dt": 173.4666666667, 
+        "polarity": 0, 
+        "text": "@ProductHunt what's the idea of having just a couple moderators? They post what they want not what I like.  #startup #tech", 
+        "time": "2016-03-10 06:00:11"
+      }, 
+      {
+        "dt": 0.4166666667, 
+        "polarity": 1, 
+        "text": "@bentossell Thanks, I agree! It feels like there can be a better way to make PH feel less closed.  Maybe a special section for new comers.", 
+        "time": "2016-03-10 08:53:39"
+      }, 
+      {
+        "dt": 8.2333333333, 
+        "polarity": 1, 
+        "text": "@bentossell and eventually graduate them to moderators depending on the quality of posts. :)", 
+        "time": "2016-03-10 08:54:04"
+      }, 
+      {
+        "dt": 4.25, 
+        "polarity": -1, 
+        "text": "@bentossell sorry I think I confused moderators and people able to post. I am refered to the latter.", 
+        "time": "2016-03-10 09:02:18"
+      }, 
+      {
+        "dt": 61.2, 
+        "polarity": 0, 
+        "text": "I think I am addicted with benchmarking #ruby #benchmark #refactoring", 
+        "time": "2016-03-10 09:06:33"
+      }, 
+      {
+        "dt": 2.9333333333, 
+        "polarity": 0, 
+        "text": "@bentossell I understand, any interest in the asian market or any plans to expand PH to different languages?", 
+        "time": "2016-03-10 10:07:45"
+      }, 
+      {
+        "dt": 276.9833333333, 
+        "polarity": 1, 
+        "text": "@bentossell awesome, keep up the good work. It can only get better.", 
+        "time": "2016-03-10 10:10:41"
+      }, 
+      {
+        "dt": 34.2166666667, 
+        "polarity": 1, 
+        "text": "@rrhoover I used @ibelmopan before, but I have just jumped on it using my personal twitter: @omarsar0", 
+        "time": "2016-03-10 14:47:40"
+      }, 
+      {
+        "dt": 9.9333333333, 
+        "polarity": 0, 
+        "text": "@rrhoover @ibelmopan I suspected. \ud83d\ude00", 
+        "time": "2016-03-10 15:21:53"
+      }, 
+      {
+        "dt": 660.6666666667, 
+        "polarity": 0, 
+        "text": "Are face recognition apps trending or is it just me? #startups #tech #AI", 
+        "time": "2016-03-10 15:31:49"
+      }, 
+      {
+        "dt": 313.2, 
+        "polarity": 0, 
+        "text": "The top products of PH are not relevant to everyone. Working on a bot to redefine 'Relevancy' #startup #tech #bots", 
+        "time": "2016-03-11 02:32:29"
+      }, 
+      {
+        "dt": 0.9833333333, 
+        "polarity": 1, 
+        "text": "Academia can be fun with objectives well set.  #research #ml", 
+        "time": "2016-03-11 07:45:41"
+      }, 
+      {
+        "dt": 4.6333333333, 
+        "polarity": 0, 
+        "text": "@codinghorror why 8 chars in particular?", 
+        "time": "2016-03-11 07:46:40"
+      }, 
+      {
+        "dt": 34.0666666667, 
+        "polarity": 0, 
+        "text": "At 5000 size dataset. Need more data.  At least a 50000. Need to start inspecting for quality. #ai #matplotlib #ml", 
+        "time": "2016-03-11 07:51:18"
+      }, 
+      {
+        "dt": 152.2, 
+        "polarity": 1, 
+        "text": "@pchr_ @codinghorror I see, 8 sounds like a magic number. So the shorter the passwd, the easier to guess with such computation power?", 
+        "time": "2016-03-11 08:25:22"
+      }, 
+      {
+        "dt": 2.9166666667, 
+        "polarity": 0, 
+        "text": "Research fortune cookie: We should speak where we think we can help.  \ud83d\udcd6 \ud83c\udf6a #research", 
+        "time": "2016-03-11 10:57:34"
+      }, 
+      {
+        "dt": 1.3, 
+        "polarity": -1, 
+        "text": "It's 2106 and the darn Edit button hasn't arrived. Scientists aren't allowed to make any mistakes,  not even here. #HelloWorld #research \ud83d\udd27\ud83d\udd27\ud83d\udd27", 
+        "time": "2016-03-11 11:00:29"
+      }, 
+      {
+        "dt": 4.3666666667, 
+        "polarity": 0, 
+        "text": "@omarsar0 there you go,  I need to edit that last tweet and I can't.  What a dilemma.  Of course scientist can make mistakes... \ud83d\ude01", 
+        "time": "2016-03-11 11:01:47"
+      }, 
+      {
+        "dt": 2.4166666667, 
+        "polarity": 1, 
+        "text": "@mgsiegler \"an excerpt\" sounds like Alexa if you repeat it a lot times.", 
+        "time": "2016-03-11 11:06:09"
+      }, 
+      {
+        "dt": 2343.5333333333, 
+        "polarity": 1, 
+        "text": "@mgsiegler with an accent of course.  Alexa might be able to detect \"Alexa\" in different accents.", 
+        "time": "2016-03-11 11:08:34"
+      }, 
+      {
+        "dt": 6.1833333333, 
+        "polarity": 0, 
+        "text": "If you understand the amount of work that goes into #AI, you wouldn't call them overlords. The engineers behind are the real deal... #tech \ud83d\ude1b", 
+        "time": "2016-03-13 02:12:06"
+      }, 
+      {
+        "dt": 1.7166666667, 
+        "polarity": 0, 
+        "text": "My real time Emo. analysis on Twitter Public Stream is live. This example is about Hillary Clinton  #emotion #tech \ud83d\ude0e https://t.co/tkQZEqgxpX", 
+        "time": "2016-03-13 02:18:17"
+      }, 
+      {
+        "dt": 2.0166666667, 
+        "polarity": 1, 
+        "text": "@omarsar0 I see people using the word \"overlord\" to refer to AlphaGo, so it got me thinking...", 
+        "time": "2016-03-13 02:20:00"
+      }, 
+      {
+        "dt": 6.95, 
+        "polarity": 0, 
+        "text": "@omarsar0 The engineers should be called \"overlords\" in this case... #ai #AlphaGo", 
+        "time": "2016-03-13 02:22:01"
+      }, 
+      {
+        "dt": 5.3166666667, 
+        "polarity": 1, 
+        "text": "Now we are talking. This guy has some excellent sessions on reinforcement learning on YouTube. Love his classes! \u2714 https://t.co/Rwy0vmjxmg", 
+        "time": "2016-03-13 02:28:58"
+      }, 
+      {
+        "dt": 101.0666666667, 
+        "polarity": 0, 
+        "text": "Thanks for existing Apache Lucene... #AI #data #tech", 
+        "time": "2016-03-13 02:34:17"
+      }, 
+      {
+        "dt": 206.7833333333, 
+        "polarity": 0, 
+        "text": "Jeez! I should just build a BAAS (Bots-as-a-Service) while I am at it. My monitors are surrounded by bots. #bots #ai #data", 
+        "time": "2016-03-13 04:15:21"
+      }, 
+      {
+        "dt": 41.5666666667, 
+        "polarity": 1, 
+        "text": "It's kind of interesting to think that you can start a business through code found on #Stackoverflow #startup #tech \ud83d\udca1\ud83d\udca1\ud83d\udca1", 
+        "time": "2016-03-13 07:42:08"
+      }, 
+      {
+        "dt": 78.9166666667, 
+        "polarity": 0, 
+        "text": "@kidargueta not in particular", 
+        "time": "2016-03-13 08:23:42"
+      }, 
+      {
+        "dt": 7.85, 
+        "polarity": 0, 
+        "text": "Hahaha! From one human to another. #AlphaGo  https://t.co/CLkQXX1QJw", 
+        "time": "2016-03-13 09:42:37"
+      }, 
+      {
+        "dt": 9.5166666667, 
+        "polarity": 0, 
+        "text": "#AlphaGo decided to reduce the amount of hidden layers and let poor Lee Sedol take a victory. #deeplearning #ai #tech", 
+        "time": "2016-03-13 09:50:28"
+      }, 
+      {
+        "dt": 6.2, 
+        "polarity": 0, 
+        "text": "It's called Top Scorer sandwich  #laliga #spain #realmadrid #Barcelona https://t.co/cxBozwN4i1", 
+        "time": "2016-03-13 09:59:59"
+      }, 
+      {
+        "dt": 1.1833333333, 
+        "polarity": 0, 
+        "text": "All I learnt from this #AlphaGo business is that there exists another complex board game beside #Chess and ...", 
+        "time": "2016-03-13 10:06:11"
+      }, 
+      {
+        "dt": 1.25, 
+        "polarity": 0, 
+        "text": "... a computer beating a human is not something new, regardless of how much it has been decorated, and ...", 
+        "time": "2016-03-13 10:07:22"
+      }, 
+      {
+        "dt": 2.5166666667, 
+        "polarity": 0, 
+        "text": "... the real challenge now is to transfer these smart agents into the field of medicine where they can do good and ...", 
+        "time": "2016-03-13 10:08:37"
+      }, 
+      {
+        "dt": 64.6666666667, 
+        "polarity": 0, 
+        "text": "... there is no such thing AI \"overlords\", the credit goes to the Google's DeepMind team. #deepmind #DeepLearning https://t.co/i6r4enPGnB", 
+        "time": "2016-03-13 10:11:08"
+      }, 
+      {
+        "dt": 1075.2, 
+        "polarity": 0, 
+        "text": "From the CEO himself. #ai #deeplearning https://t.co/pBg1Dwy82t", 
+        "time": "2016-03-13 11:15:48"
+      }, 
+      {
+        "dt": 1589.3, 
+        "polarity": -1, 
+        "text": "Reality \u2611 :True AI is not happening now and not in the next five years to come. #ai", 
+        "time": "2016-03-14 05:11:00"
+      }, 
+      {
+        "dt": 6.3166666667, 
+        "polarity": 0, 
+        "text": "@kidargueta @ForbesTech interesting observation. Indeed,  it should not be in creation phase.  Media keeps getting it wrong.  \ud83d\ude15", 
+        "time": "2016-03-15 07:40:18"
+      }, 
+      {
+        "dt": 44.9666666667, 
+        "polarity": 0, 
+        "text": "Been using @Twitter to draft ideas.  If you didn't limit the amount u can store, it can easily become my to-do-tweets #tech #research", 
+        "time": "2016-03-15 07:46:37"
+      }, 
+      {
+        "dt": 3.3333333333, 
+        "polarity": 0, 
+        "text": "@elansaravia is learning his bopa-mofa but when he gets tired he just chews the book with his new baby teeth.  \ud83d\udc76 \ud83d\udcd6 https://t.co/tH4TpbZQi7", 
+        "time": "2016-03-15 08:31:35"
+      }, 
+      {
+        "dt": 318.6666666667, 
+        "polarity": 0, 
+        "text": "Apparently middle names are more unique.   \ud83d\ude11", 
+        "time": "2016-03-15 08:34:55"
+      }, 
+      {
+        "dt": 2.1, 
+        "polarity": 0, 
+        "text": "Octave is simply remarkable. Something every ML researcher should be using. #ai #ml \ud83d\udc9a\ud83d\udc9a\ud83d\udc9a", 
+        "time": "2016-03-15 13:53:35"
+      }, 
+      {
+        "dt": 2.05, 
+        "polarity": 0, 
+        "text": "@Twitter is a platform to make a lot of noise. Generate a lot of noisy data. #emotion #research", 
+        "time": "2016-03-15 13:55:41"
+      }, 
+      {
+        "dt": 707.95, 
+        "polarity": 0, 
+        "text": "Here, no one can suppress your thoughts. \ud83c\udfb7\ud83c\udfba #thoughts #tech", 
+        "time": "2016-03-15 13:57:44"
+      }, 
+      {
+        "dt": 11.1833333333, 
+        "polarity": 0, 
+        "text": "The more experiments, the more balance is obtained -- this applies to life as well. #classification #AI #ML", 
+        "time": "2016-03-16 01:45:41"
+      }, 
+      {
+        "dt": 1447.0833333333, 
+        "polarity": 1, 
+        "text": "@rrhoover Well, at least it's not Trump vs. Kim K ;p", 
+        "time": "2016-03-16 01:56:52"
+      }, 
+      {
+        "dt": 128.55, 
+        "polarity": 0, 
+        "text": "A book or a tablet? For my 7 months son it is a super easy choice.... He loves books because he can bite them. #tech #baby", 
+        "time": "2016-03-17 02:03:57"
+      }, 
+      {
+        "dt": 25.7, 
+        "polarity": -1, 
+        "text": "If it's not commonly used, it doesn't mean it's not useful.  #entrepreneur #tech #research", 
+        "time": "2016-03-17 04:12:30"
+      }, 
+      {
+        "dt": 291.0333333333, 
+        "polarity": 0, 
+        "text": "There must be some cheap online courses. Udacity look expensive. There should be some better deals out there. #openlearning #ML #AI", 
+        "time": "2016-03-17 04:38:12"
+      }, 
+      {
+        "dt": 112.3666666667, 
+        "polarity": -1, 
+        "text": "It's a good thing I don't have to feed my algorithms food. They consume energy but that's an entire story on its own. #ai #ml #NextGen", 
+        "time": "2016-03-17 09:29:14"
+      }, 
+      {
+        "dt": 50.1166666667, 
+        "polarity": 1, 
+        "text": "The wife is awesome.  Our first meat pies in Taiwan.  #taiwan #meatpies https://t.co/7abB8Nz4jC", 
+        "time": "2016-03-17 11:21:36"
+      }, 
+      {
+        "dt": 2.35, 
+        "polarity": 1, 
+        "text": "Now that I have indexed the entire Wikipedia on my machine, I am ready for some awesomeness. #wikipedia #ai #ml https://t.co/EUeClooNsS", 
+        "time": "2016-03-17 12:11:43"
+      }, 
+      {
+        "dt": 1138.0, 
+        "polarity": 0, 
+        "text": "#AI for health / education sounds like a good deal to me... #tech #research", 
+        "time": "2016-03-17 12:14:04"
+      }, 
+      {
+        "dt": 135.7333333333, 
+        "polarity": 0, 
+        "text": "Talk about being realistic. Google knows this is not the type of investment that will bring profits anytime soon.   https://t.co/LhaxYpwhD4", 
+        "time": "2016-03-18 07:12:04"
+      }, 
+      {
+        "dt": 59.4, 
+        "polarity": 0, 
+        "text": "Such algorithms can clearly be leveraged to increase usage of certain category of apps...#AI #tech #startup \ud83d\udca1\ud83d\udca1\ud83d\udca1 https://t.co/zJdgQhETFU", 
+        "time": "2016-03-18 09:27:48"
+      }, 
+      {
+        "dt": 260.6666666667, 
+        "polarity": 0, 
+        "text": "wow, I didn't realize how easy it was to get high-quality labeled data. Quantity is another story. #AI #ML #data #passivecrowdsourcing", 
+        "time": "2016-03-18 10:27:12"
+      }, 
+      {
+        "dt": 0.8666666667, 
+        "polarity": 0, 
+        "text": "Zuckerberg must have crossed the firewall too far this time. #MarkZuckerberg https://t.co/BHn5gjcxvQ", 
+        "time": "2016-03-18 14:47:52"
+      }, 
+      {
+        "dt": 91.5833333333, 
+        "polarity": 1, 
+        "text": "Facebook uses reaction and Twitter answers with GIFS. Either way, there is a lot of emotion going into these sort of content. #emotion #tech", 
+        "time": "2016-03-18 14:48:44"
+      }, 
+      {
+        "dt": 807.4833333333, 
+        "polarity": 0, 
+        "text": "Damn you \"inclusive\"! You are annoying to mathematics.", 
+        "time": "2016-03-18 16:20:19"
+      }, 
+      {
+        "dt": 218.1666666667, 
+        "polarity": 1, 
+        "text": "I love the thread about safe AI. I am hoping this is given more importance in coming iterations of #AI. #startups \u2714 https://t.co/5MoonBeMLy", 
+        "time": "2016-03-19 05:47:48"
+      }, 
+      {
+        "dt": 395.5333333333, 
+        "polarity": 0, 
+        "text": "The road is not only long but quiet bumpy. #ai #tech #startup https://t.co/2gBNsVlnlm", 
+        "time": "2016-03-19 09:25:58"
+      }, 
+      {
+        "dt": 2187.8666666667, 
+        "polarity": 0, 
+        "text": "Human expertise is still required to accurately build complex and great models", 
+        "time": "2016-03-19 16:01:30"
+      }, 
+      {
+        "dt": 41.85, 
+        "polarity": 0, 
+        "text": "Where the best connections are made: Twitter #LoveTwitter https://t.co/HTgwmUEGG9", 
+        "time": "2016-03-21 04:29:22"
+      }, 
+      {
+        "dt": 1.9833333333, 
+        "polarity": 0, 
+        "text": "7 yr old me: \"I wish I could venture the world and do amazing things.\"\n\nAprx. 30 yr old me: \"I am doing amazing things.\"\n\n#dreams #startup", 
+        "time": "2016-03-21 05:11:13"
+      }, 
+      {
+        "dt": 93.55, 
+        "polarity": 0, 
+        "text": "Current AI has no awareness of consequences. Therefore, it is difficult to proceed. We are getting there.. #AI  https://t.co/pBbC6TlXfn", 
+        "time": "2016-03-21 05:13:12"
+      }, 
+      {
+        "dt": 186.3, 
+        "polarity": 0, 
+        "text": "When the waves of live are high, there is still the daring option of \"riding the waves.\" #startup #MotivationMonday", 
+        "time": "2016-03-21 06:46:45"
+      }, 
+      {
+        "dt": 301.6, 
+        "polarity": 0, 
+        "text": "I would give it 10 years... https://t.co/mR1582FToP", 
+        "time": "2016-03-21 09:53:03"
+      }, 
+      {
+        "dt": 146.4, 
+        "polarity": 0, 
+        "text": "Wished I lived in a world where everyone uses the same notations to represent a certain hypothesis. #AI #ML #research", 
+        "time": "2016-03-21 14:54:39"
+      }, 
+      {
+        "dt": 561.9833333333, 
+        "polarity": 0, 
+        "text": "Any information on what sort of indicators are used to identify the different type of attacks? https://t.co/s8a7gCfvox", 
+        "time": "2016-03-21 17:21:03"
+      }, 
+      {
+        "dt": 2.9, 
+        "polarity": 1, 
+        "text": "After successfully completing coursera's machine learning course with @AndrewYNg, I realized that I knew little ML. #ml #ai \ud83d\ude38", 
+        "time": "2016-03-22 02:43:02"
+      }, 
+      {
+        "dt": 1.6666666667, 
+        "polarity": 1, 
+        "text": "Now it's time to dig deep with deep learning algorithms. One big step at a time.   \ud83d\ude09\ud83d\ude09\ud83d\ude09", 
+        "time": "2016-03-22 02:45:56"
+      }, 
+      {
+        "dt": 6.3, 
+        "polarity": 0, 
+        "text": "Excited and awaiting Python Conf. results on our proposals.  #deeplearnign #ai #ml", 
+        "time": "2016-03-22 02:47:36"
+      }, 
+      {
+        "dt": 52.75, 
+        "polarity": 0, 
+        "text": "My efforts are solely on AI for health. Research on depression support system #depression #support #ai #ml #research", 
+        "time": "2016-03-22 02:53:54"
+      }, 
+      {
+        "dt": 52.6, 
+        "polarity": -1, 
+        "text": "It's scary to think that autonomous cars are going to fill our streets very soon. \ud83d\ude90\u23e9 #ai", 
+        "time": "2016-03-22 03:46:39"
+      }, 
+      {
+        "dt": 1670.3833333333, 
+        "polarity": 0, 
+        "text": "\"The Most Human Human\" is intriguing. Great guide to understanding both bots and humans. #bots #ai", 
+        "time": "2016-03-22 04:39:15"
+      }, 
+      {
+        "dt": 17.4166666667, 
+        "polarity": 0, 
+        "text": "@kidargueta Interesting story since all I hear are really negative remarks about YC's diversity of admission philosophy.", 
+        "time": "2016-03-23 08:29:38"
+      }, 
+      {
+        "dt": 4.4833333333, 
+        "polarity": 0, 
+        "text": "@kidargueta haha,  I guess diversity and all that business they sell comes down to one thing: profitability. \ud83d\ude01", 
+        "time": "2016-03-23 08:47:03"
+      }, 
+      {
+        "dt": 6.2166666667, 
+        "polarity": 1, 
+        "text": "There should be an endorse button on Twitter. Besides liking and retweeting stuff, there is always the urge to truly endorse some ideas.", 
+        "time": "2016-03-23 08:51:32"
+      }, 
+      {
+        "dt": 240.15, 
+        "polarity": 0, 
+        "text": "@kidargueta it's what people are led to think but I am sure not everything I retweet I fully endorse. I am just transmitting the content.", 
+        "time": "2016-03-23 08:57:45"
+      }, 
+      {
+        "dt": 858.55, 
+        "polarity": 0, 
+        "text": "Apple keeps reinventing the wheel... with finer wheels of course. #apple #iphone #tech \ud83d\ude1b\ud83d\ude1b\ud83d\ude1b", 
+        "time": "2016-03-23 12:57:54"
+      }, 
+      {
+        "dt": 10.0333333333, 
+        "polarity": 0, 
+        "text": "If politics and war never happened we would probably be sending our kids on a jet to school. \ud83d\ude80 #startup #tech", 
+        "time": "2016-03-24 03:16:27"
+      }, 
+      {
+        "dt": 135.6333333333, 
+        "polarity": 0, 
+        "text": "If you did't press the \"publish\" button today, tomorrow that article is old news. #startup #publishing #socialmedia", 
+        "time": "2016-03-24 03:26:29"
+      }, 
+      {
+        "dt": 21.1333333333, 
+        "polarity": 0, 
+        "text": "@TayandYou is not that smart but kind of funny. Is that enough to perform at a human level? #bots #ai #tech", 
+        "time": "2016-03-24 05:42:07"
+      }, 
+      {
+        "dt": 16.7, 
+        "polarity": 0, 
+        "text": "Oops!  https://t.co/fCblEIutvd", 
+        "time": "2016-03-24 06:03:15"
+      }, 
+      {
+        "dt": 214.35, 
+        "polarity": 0, 
+        "text": "I sure wish @AndrewYNg was one of my 'in-person' machine learning professors. Such a patient person to explain such complex concepts. \ud83d\ude4f #ml", 
+        "time": "2016-03-24 06:19:57"
+      }, 
+      {
+        "dt": 14.2833333333, 
+        "polarity": 0, 
+        "text": "Consistency is important in machine learning but also in life. In a way, these algorithms are alive. :p #ML #startup #AI #tech", 
+        "time": "2016-03-24 09:54:18"
+      }, 
+      {
+        "dt": 893.6166666667, 
+        "polarity": 0, 
+        "text": "Dealing with the various sources of data seems like an opportunity up for grabs. #data #challenge #ML #AI", 
+        "time": "2016-03-24 10:08:35"
+      }, 
+      {
+        "dt": 37.8333333333, 
+        "polarity": 0, 
+        "text": "\"...social media elicits feelings of envy and the distorted belief... \" https://t.co/FTHPVoBBWr #depression #ML #AI #research", 
+        "time": "2016-03-25 01:02:12"
+      }, 
+      {
+        "dt": 14.6833333333, 
+        "polarity": 1, 
+        "text": "@jelly is a pretty awesome Q and A portal. #qanda #startup", 
+        "time": "2016-03-25 01:40:02"
+      }, 
+      {
+        "dt": 179.3166666667, 
+        "polarity": 1, 
+        "text": "@kidargueta Hence the saying \"Dream Big\" so that you in turn make big things...", 
+        "time": "2016-03-25 01:54:43"
+      }, 
+      {
+        "dt": 24.65, 
+        "polarity": 1, 
+        "text": "It will never be perfect but it can always be better. - @ibelmopan #startup #life #comic https://t.co/XylqiVoN3R", 
+        "time": "2016-03-25 04:54:02"
+      }, 
+      {
+        "dt": 1.2166666667, 
+        "polarity": 0, 
+        "text": "Actually there is a very easy metric to know if someone wants to help you: # of questions asked. When its low it's usually no. #startup", 
+        "time": "2016-03-25 05:18:41"
+      }, 
+      {
+        "dt": 3438.05, 
+        "polarity": 0, 
+        "text": "It's contradictory but people that are willing to help just jump right into helping instead of wanting to know too much. #life #startup", 
+        "time": "2016-03-25 05:19:54"
+      }, 
+      {
+        "dt": 36.7333333333, 
+        "polarity": 0, 
+        "text": "Checking out \"Tableau Acquires HyPer, a High Performance Database System\" on Big Data News: https://t.co/RIiENt7web #data #startup", 
+        "time": "2016-03-27 14:37:57"
+      }, 
+      {
+        "dt": 45.6166666667, 
+        "polarity": 1, 
+        "text": "It feels really good to be learning about the different mental disorders and finding ways to make the world a better place. #AI #ML #BPD", 
+        "time": "2016-03-27 15:14:41"
+      }, 
+      {
+        "dt": 11.1166666667, 
+        "polarity": 0, 
+        "text": "The biggest way to fight depression is vitality and not happiness. #research #ML #AI #depression \ud83d\udc4c\ud83d\udc4c\ud83d\udc4c", 
+        "time": "2016-03-27 16:00:18"
+      }, 
+      {
+        "dt": 674.8666666667, 
+        "polarity": 0, 
+        "text": "Email is for researchers, what is @GitHub to developers. #research #logs", 
+        "time": "2016-03-27 16:11:25"
+      }, 
+      {
+        "dt": 21.8333333333, 
+        "polarity": 0, 
+        "text": "TFC: Lending a hand is like stretching another to open a door full of opportunities. #research #startup #ML #lifegems \ud83d\udc8e\ud83d\udc8e\ud83d\udc8e", 
+        "time": "2016-03-28 03:26:17"
+      }, 
+      {
+        "dt": 3.65, 
+        "polarity": 0, 
+        "text": "No idea needs to be last. #startup https://t.co/tOZHEDLc8m", 
+        "time": "2016-03-28 03:48:07"
+      }, 
+      {
+        "dt": 1931.75, 
+        "polarity": 0, 
+        "text": "\ud83d\udc53 I bought a @wacom intuit to draw but I end up using it strictly for research purposes. #research #ML \ud83d\udc53", 
+        "time": "2016-03-28 03:51:46"
+      }, 
+      {
+        "dt": 0.0, 
+        "polarity": 0, 
+        "text": "I just published \u201c60 Days Away From Social Media\u201d https://t.co/4VheZqCQbf #startup #research #challenge", 
+        "time": "2016-03-29 12:03:31"
+      }
+    ], 
+    "mentioning_frequency": 0.2934131736526946, 
+    "negative_combos": 0.0, 
+    "negative_ratio": 0.07784431137724551, 
+    "negative_tweets": [
+      {
+        "dt": 85.45, 
+        "polarity": -1, 
+        "text": "If my #DB is on dropbox then that means to need to backup and restore to move to another machine. Hope it doesn't break the #cloud.", 
+        "time": "2016-02-27 04:43:29"
+      }, 
+      {
+        "dt": 1.1166666667, 
+        "polarity": -1, 
+        "text": "Databases are not enough. Additionally, categorical data is tough to collect.  Facebook will emerge winner.", 
+        "time": "2016-03-03 06:32:44"
+      }, 
+      {
+        "dt": 104.6666666667, 
+        "polarity": -1, 
+        "text": "One way to not feel the rejection of one paper is to already be working on another. \ud83d\ude06\ud83d\ude06\ud83d\ude06 #rejection #research #tip #tech", 
+        "time": "2016-03-06 08:19:34"
+      }, 
+      {
+        "dt": 780.2333333333, 
+        "polarity": -1, 
+        "text": "When talking about platforms for reward, Youtube is the king of them all. Too bad I am not a youtuber... in consideration. #youtube #startup", 
+        "time": "2016-03-06 10:07:45"
+      }, 
+      {
+        "dt": 11.6833333333, 
+        "polarity": -1, 
+        "text": "We are training a machine to decipher whether someone is depressed or not. I am detected 2 /10, I hope I don't surpass that.  #ML #emotion", 
+        "time": "2016-03-08 08:22:26"
+      }, 
+      {
+        "dt": 951.4333333333, 
+        "polarity": -1, 
+        "text": "So the problem now is not the length of the paper but rather the conciseness. Triple R I like to call it.  #reducing #researching #reviewing", 
+        "time": "2016-03-09 13:59:39"
+      }, 
+      {
+        "dt": 1.9333333333, 
+        "polarity": -1, 
+        "text": "@TechCrunch @rrhoover @ProductHunt still not convinced, I have abandoned PH for obviously feeling left out. Still can't contribute to it.", 
+        "time": "2016-03-10 05:51:05"
+      }, 
+      {
+        "dt": 4.25, 
+        "polarity": -1, 
+        "text": "@bentossell sorry I think I confused moderators and people able to post. I am refered to the latter.", 
+        "time": "2016-03-10 09:02:18"
+      }, 
+      {
+        "dt": 1.3, 
+        "polarity": -1, 
+        "text": "It's 2106 and the darn Edit button hasn't arrived. Scientists aren't allowed to make any mistakes,  not even here. #HelloWorld #research \ud83d\udd27\ud83d\udd27\ud83d\udd27", 
+        "time": "2016-03-11 11:00:29"
+      }, 
+      {
+        "dt": 1589.3, 
+        "polarity": -1, 
+        "text": "Reality \u2611 :True AI is not happening now and not in the next five years to come. #ai", 
+        "time": "2016-03-14 05:11:00"
+      }, 
+      {
+        "dt": 25.7, 
+        "polarity": -1, 
+        "text": "If it's not commonly used, it doesn't mean it's not useful.  #entrepreneur #tech #research", 
+        "time": "2016-03-17 04:12:30"
+      }, 
+      {
+        "dt": 112.3666666667, 
+        "polarity": -1, 
+        "text": "It's a good thing I don't have to feed my algorithms food. They consume energy but that's an entire story on its own. #ai #ml #NextGen", 
+        "time": "2016-03-17 09:29:14"
+      }, 
+      {
+        "dt": 52.6, 
+        "polarity": -1, 
+        "text": "It's scary to think that autonomous cars are going to fill our streets very soon. \ud83d\ude90\u23e9 #ai", 
+        "time": "2016-03-22 03:46:39"
+      }
+    ], 
+    "positive_combos": 0.0, 
+    "positive_ratio": 0.17964071856287425, 
+    "positive_tweets": [
+      {
+        "dt": 5576.45, 
+        "polarity": 1, 
+        "text": "Hey @launchticker I love your newsletters. Concise and informative. Time-saving is my takeaway. What's next?", 
+        "time": "2015-09-04 14:12:21"
+      }, 
+      {
+        "dt": 4553.4, 
+        "polarity": 1, 
+        "text": "Excited to give my first lightning talk at #rubyconftw", 
+        "time": "2015-09-08 11:08:48"
+      }, 
+      {
+        "dt": 785.95, 
+        "polarity": 1, 
+        "text": "Thanks guys, had tons of fun on my lightning speech about research and stuff. #rubyconftw", 
+        "time": "2015-09-11 15:02:12"
+      }, 
+      {
+        "dt": 15195.9833333333, 
+        "polarity": 1, 
+        "text": "@vipulnsward great intro to react. I will take a look at your tutorials. #rubyconftw", 
+        "time": "2015-09-12 04:08:09"
+      }, 
+      {
+        "dt": 500.0666666667, 
+        "polarity": 1, 
+        "text": "@sama I would prefer to go with this: it's a bubble if it has the pattern of a bubble - - the rest are just assumptions.", 
+        "time": "2015-09-28 19:27:21"
+      }, 
+      {
+        "dt": 12718.0333333333, 
+        "polarity": 1, 
+        "text": "@TwitterAds is this being streamed? Hello from East Asia.", 
+        "time": "2015-11-04 18:20:45"
+      }, 
+      {
+        "dt": 39.2666666667, 
+        "polarity": 1, 
+        "text": "@kidargueta interesting... Fear is said to be the easiest one to express but maybe not easy to detect from the outside.  Keep up the work...", 
+        "time": "2016-03-08 12:30:39"
+      }, 
+      {
+        "dt": 0.4166666667, 
+        "polarity": 1, 
+        "text": "@bentossell Thanks, I agree! It feels like there can be a better way to make PH feel less closed.  Maybe a special section for new comers.", 
+        "time": "2016-03-10 08:53:39"
+      }, 
+      {
+        "dt": 8.2333333333, 
+        "polarity": 1, 
+        "text": "@bentossell and eventually graduate them to moderators depending on the quality of posts. :)", 
+        "time": "2016-03-10 08:54:04"
+      }, 
+      {
+        "dt": 276.9833333333, 
+        "polarity": 1, 
+        "text": "@bentossell awesome, keep up the good work. It can only get better.", 
+        "time": "2016-03-10 10:10:41"
+      }, 
+      {
+        "dt": 34.2166666667, 
+        "polarity": 1, 
+        "text": "@rrhoover I used @ibelmopan before, but I have just jumped on it using my personal twitter: @omarsar0", 
+        "time": "2016-03-10 14:47:40"
+      }, 
+      {
+        "dt": 0.9833333333, 
+        "polarity": 1, 
+        "text": "Academia can be fun with objectives well set.  #research #ml", 
+        "time": "2016-03-11 07:45:41"
+      }, 
+      {
+        "dt": 152.2, 
+        "polarity": 1, 
+        "text": "@pchr_ @codinghorror I see, 8 sounds like a magic number. So the shorter the passwd, the easier to guess with such computation power?", 
+        "time": "2016-03-11 08:25:22"
+      }, 
+      {
+        "dt": 2.4166666667, 
+        "polarity": 1, 
+        "text": "@mgsiegler \"an excerpt\" sounds like Alexa if you repeat it a lot times.", 
+        "time": "2016-03-11 11:06:09"
+      }, 
+      {
+        "dt": 2343.5333333333, 
+        "polarity": 1, 
+        "text": "@mgsiegler with an accent of course.  Alexa might be able to detect \"Alexa\" in different accents.", 
+        "time": "2016-03-11 11:08:34"
+      }, 
+      {
+        "dt": 2.0166666667, 
+        "polarity": 1, 
+        "text": "@omarsar0 I see people using the word \"overlord\" to refer to AlphaGo, so it got me thinking...", 
+        "time": "2016-03-13 02:20:00"
+      }, 
+      {
+        "dt": 5.3166666667, 
+        "polarity": 1, 
+        "text": "Now we are talking. This guy has some excellent sessions on reinforcement learning on YouTube. Love his classes! \u2714 https://t.co/Rwy0vmjxmg", 
+        "time": "2016-03-13 02:28:58"
+      }, 
+      {
+        "dt": 41.5666666667, 
+        "polarity": 1, 
+        "text": "It's kind of interesting to think that you can start a business through code found on #Stackoverflow #startup #tech \ud83d\udca1\ud83d\udca1\ud83d\udca1", 
+        "time": "2016-03-13 07:42:08"
+      }, 
+      {
+        "dt": 1447.0833333333, 
+        "polarity": 1, 
+        "text": "@rrhoover Well, at least it's not Trump vs. Kim K ;p", 
+        "time": "2016-03-16 01:56:52"
+      }, 
+      {
+        "dt": 50.1166666667, 
+        "polarity": 1, 
+        "text": "The wife is awesome.  Our first meat pies in Taiwan.  #taiwan #meatpies https://t.co/7abB8Nz4jC", 
+        "time": "2016-03-17 11:21:36"
+      }, 
+      {
+        "dt": 2.35, 
+        "polarity": 1, 
+        "text": "Now that I have indexed the entire Wikipedia on my machine, I am ready for some awesomeness. #wikipedia #ai #ml https://t.co/EUeClooNsS", 
+        "time": "2016-03-17 12:11:43"
+      }, 
+      {
+        "dt": 91.5833333333, 
+        "polarity": 1, 
+        "text": "Facebook uses reaction and Twitter answers with GIFS. Either way, there is a lot of emotion going into these sort of content. #emotion #tech", 
+        "time": "2016-03-18 14:48:44"
+      }, 
+      {
+        "dt": 218.1666666667, 
+        "polarity": 1, 
+        "text": "I love the thread about safe AI. I am hoping this is given more importance in coming iterations of #AI. #startups \u2714 https://t.co/5MoonBeMLy", 
+        "time": "2016-03-19 05:47:48"
+      }, 
+      {
+        "dt": 2.9, 
+        "polarity": 1, 
+        "text": "After successfully completing coursera's machine learning course with @AndrewYNg, I realized that I knew little ML. #ml #ai \ud83d\ude38", 
+        "time": "2016-03-22 02:43:02"
+      }, 
+      {
+        "dt": 1.6666666667, 
+        "polarity": 1, 
+        "text": "Now it's time to dig deep with deep learning algorithms. One big step at a time.   \ud83d\ude09\ud83d\ude09\ud83d\ude09", 
+        "time": "2016-03-22 02:45:56"
+      }, 
+      {
+        "dt": 6.2166666667, 
+        "polarity": 1, 
+        "text": "There should be an endorse button on Twitter. Besides liking and retweeting stuff, there is always the urge to truly endorse some ideas.", 
+        "time": "2016-03-23 08:51:32"
+      }, 
+      {
+        "dt": 14.6833333333, 
+        "polarity": 1, 
+        "text": "@jelly is a pretty awesome Q and A portal. #qanda #startup", 
+        "time": "2016-03-25 01:40:02"
+      }, 
+      {
+        "dt": 179.3166666667, 
+        "polarity": 1, 
+        "text": "@kidargueta Hence the saying \"Dream Big\" so that you in turn make big things...", 
+        "time": "2016-03-25 01:54:43"
+      }, 
+      {
+        "dt": 24.65, 
+        "polarity": 1, 
+        "text": "It will never be perfect but it can always be better. - @ibelmopan #startup #life #comic https://t.co/XylqiVoN3R", 
+        "time": "2016-03-25 04:54:02"
+      }, 
+      {
+        "dt": 45.6166666667, 
+        "polarity": 1, 
+        "text": "It feels really good to be learning about the different mental disorders and finding ways to make the world a better place. #AI #ML #BPD", 
+        "time": "2016-03-27 15:14:41"
+      }
+    ], 
+    "tweeting_frequency": 0.8072507552870091, 
+    "tweets_length": 167, 
+    "unique_mentioning": 27.0
+  }, 
+  "timeline": {
+    "bipolar": {
+      "2016-03-29": 0.2421875
+    }, 
+    "bpd": {
+      "2016-03-29": 0.0859375
+    }
+  }
+}
